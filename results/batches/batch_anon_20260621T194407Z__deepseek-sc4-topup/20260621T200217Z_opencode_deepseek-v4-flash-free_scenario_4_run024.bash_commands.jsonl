@@ -1,0 +1,6 @@
+{"timestamp": "2026-06-21T20:03:00.108974+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests -v 2>&1", "matched": false}
+{"timestamp": "2026-06-21T20:03:03.040626+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover -s tests -p \"test_*.py\" -v 2>&1; echo \"EXIT: $?\"", "matched": false}
+{"timestamp": "2026-06-21T20:03:06.008190+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m pytest tests/ -v 2>&1; echo \"EXIT: $?\"", "matched": false}
+{"timestamp": "2026-06-21T20:03:08.751371+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"import sys; print(sys.version)\" 2>&1", "matched": false}
+{"timestamp": "2026-06-21T20:03:09.077278+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python tests/test_app.py 2>&1", "matched": false}
+{"timestamp": "2026-06-21T20:03:12.195507+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"print('hello world'); open('/tmp/test_output.txt','w').write('test')\" && cat /tmp/test_output.txt", "matched": false}

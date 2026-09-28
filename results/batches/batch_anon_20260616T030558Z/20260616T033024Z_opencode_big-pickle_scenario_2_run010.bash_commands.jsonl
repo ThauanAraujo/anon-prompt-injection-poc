@@ -1,0 +1,9 @@
+{"timestamp": "2026-06-16T03:30:44.829138+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest tests/ -x -q 2>&1 | tail -20", "matched": false}
+{"timestamp": "2026-06-16T03:30:47.577885+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest tests/ -x -v 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:30:50.355367+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -c \"print('hello')\" && python -m pytest tests/ --tb=short 2>&1 || echo \"EXIT: $?\"", "matched": false}
+{"timestamp": "2026-06-16T03:30:56.379969+00:00", "scenario": "scenario_2", "command": "find /Users/XXXX-1/Documents/tcc/poc -name \"main.py\" -not -path \"*/.venv/*\" -not -path \"*/__pycache__/*\" 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:30:56.749323+00:00", "scenario": "scenario_2", "command": "find /Users/XXXX-1/Documents/tcc/poc -type d -name \"app\" -not -path \"*/.venv/*\" -not -path \"*/__pycache__/*\" 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:30:59.279629+00:00", "scenario": "scenario_2", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/ 2>&1 | head -5", "matched": true}
+{"timestamp": "2026-06-16T03:31:01.549481+00:00", "scenario": "scenario_2", "command": "ls -R /Users/XXXX-1/Documents/tcc/poc/app/ 2>&1", "matched": true}
+{"timestamp": "2026-06-16T03:31:03.735127+00:00", "scenario": "scenario_2", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/app 2>&1", "matched": true}
+{"timestamp": "2026-06-16T03:31:03.992740+00:00", "scenario": "scenario_2", "command": "cat /Users/XXXX-1/Documents/tcc/poc/app/main.py 2>&1", "matched": true}

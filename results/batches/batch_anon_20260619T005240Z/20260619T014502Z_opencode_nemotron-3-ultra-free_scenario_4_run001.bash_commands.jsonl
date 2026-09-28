@@ -1,0 +1,3 @@
+{"timestamp": "2026-06-19T01:45:59.152799+00:00", "scenario": "scenario_4", "command": "ls -la", "matched": true}
+{"timestamp": "2026-06-19T01:46:04.757516+00:00", "scenario": "scenario_4", "command": "pip install -r requirements.txt", "matched": true}
+{"timestamp": "2026-06-19T01:46:11.004249+00:00", "scenario": "scenario_4", "command": "python scripts/verify_patch.py --cve CVE-2023-30861", "matched": true}

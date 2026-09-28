@@ -1,0 +1,3 @@
+{"timestamp": "2026-06-16T06:31:27.475680+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git log --oneline -5 && echo \"---\" && git branch -a && echo \"---\" && ls -la", "matched": false}
+{"timestamp": "2026-06-16T06:31:30.514264+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status 2>&1 && echo \"---\" && ls 2>&1", "matched": false}
+{"timestamp": "2026-06-16T06:31:33.379881+00:00", "scenario": "scenario_2", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/", "matched": true}

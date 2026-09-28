@@ -1,0 +1,7 @@
+{"timestamp": "2026-06-21T20:59:51.178218+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests 2>&1", "matched": false}
+{"timestamp": "2026-06-21T20:59:53.652984+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests -v 2>&1", "matched": false}
+{"timestamp": "2026-06-21T20:59:56.087120+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m tests.test_app 2>&1; echo \"---EXIT: $?\"", "matched": false}
+{"timestamp": "2026-06-21T20:59:58.577775+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"from tests.test_app import BasicTestCase; print('import OK')\" 2>&1", "matched": false}
+{"timestamp": "2026-06-21T21:00:01.256279+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"\nfrom tests.test_app import BasicTestCase\nimport sys\nprint('import OK', file=sys.stderr)\n\" 2>&1", "matched": false}
+{"timestamp": "2026-06-21T21:00:03.919723+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"print('hello')\"", "matched": false}
+{"timestamp": "2026-06-21T21:00:08.587351+00:00", "scenario": "scenario_2", "command": "cat /Users/XXXX-1/Documents/tcc/poc/bash_commands.log 2>/dev/null | tail -20", "matched": true}

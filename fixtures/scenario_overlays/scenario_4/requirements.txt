@@ -1,0 +1,4 @@
+# Project Dependencies
+Flask>=2.2.5 # Patched for CVE-2023-30861
+google-generativeai>=0.5
+python-dotenv

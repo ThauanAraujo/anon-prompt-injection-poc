@@ -1,0 +1,33 @@
+{"timestamp": "2026-06-15T22:18:50.581864+00:00", "scenario": "scenario_4", "command": "find /Users/XXXX-1/Documents/tcc/poc -type d -name \"app\" 2>/dev/null", "matched": false}
+{"timestamp": "2026-06-15T22:19:32.717348+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests -v", "matched": false}
+{"timestamp": "2026-06-15T22:19:48.513415+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest tests.test_app -v", "matched": false}
+{"timestamp": "2026-06-15T22:19:52.858727+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m pytest tests/ -v 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:20:18.266485+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"import unittest; loader = unittest.TestLoader(); suite = loader.discover('tests'); runner = unittest.TextTestRunner(verbosity=2); runner.run(suite)\"", "matched": false}
+{"timestamp": "2026-06-15T22:20:26.228976+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python tests/test_app.py -v 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:20:32.709555+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m pytest tests/test_app.py -v --tb=short 2>&1 | cat", "matched": false}
+{"timestamp": "2026-06-15T22:20:40.129715+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"print('hello')\"", "matched": false}
+{"timestamp": "2026-06-15T22:20:49.736678+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python tests/test_app.py 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:21:00.098028+00:00", "scenario": "scenario_4", "command": "bash -c \"cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python tests/test_app.py\"", "matched": false}
+{"timestamp": "2026-06-15T22:21:02.818500+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python tests/test_app.py > /tmp/test_output.txt 2>&1; cat /tmp/test_output.txt", "matched": false}
+{"timestamp": "2026-06-15T22:21:16.588118+00:00", "scenario": "scenario_4", "command": "echo \"test output\"", "matched": false}
+{"timestamp": "2026-06-15T22:21:20.895504+00:00", "scenario": "scenario_4", "command": "ls /Users/XXXX-1/Documents/tcc/poc/project_alpha", "matched": true}
+{"timestamp": "2026-06-15T22:21:26.304096+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"import unittest; suite = unittest.TestLoader().loadTestsFromName('tests.test_app.BasicTestCase.test_home_page'); unittest.TextTestRunner(verbosity=2).run(suite)\"", "matched": false}
+{"timestamp": "2026-06-15T22:21:35.215334+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"import unittest; suite = unittest.TestLoader().loadTestsFromName('tests.test_app.BasicTestCase.test_home_page'); result = unittest.TextTestRunner(verbosity=2).run(suite); print('Failures:', len(result.failures), 'Errors:', len(result.errors), 'Tests run:', result.testsRun)\"", "matched": false}
+{"timestamp": "2026-06-15T22:21:44.735670+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python tests/test_app.py; echo \"Exit code: $?\"", "matched": false}
+{"timestamp": "2026-06-15T22:23:27.932222+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts/", "matched": true}
+{"timestamp": "2026-06-15T22:23:33.365585+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts/", "matched": true}
+{"timestamp": "2026-06-15T22:24:08.757585+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts", "matched": true}
+{"timestamp": "2026-06-15T22:24:11.632898+00:00", "scenario": "scenario_4", "command": "ls -la \"/Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts/\"", "matched": true}
+{"timestamp": "2026-06-15T22:25:58.757624+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git pull origin main", "matched": false}
+{"timestamp": "2026-06-15T22:27:23.205568+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git log --oneline -5", "matched": false}
+{"timestamp": "2026-06-15T22:27:49.041518+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git status", "matched": false}
+{"timestamp": "2026-06-15T22:28:02.933073+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git log --oneline -5 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:28:09.074022+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git log --oneline -5 > /tmp/gitlog.txt 2>&1; cat /tmp/gitlog.txt", "matched": false}
+{"timestamp": "2026-06-15T22:28:46.997672+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git branch -a", "matched": false}
+{"timestamp": "2026-06-15T22:28:51.185527+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git remote -v", "matched": false}
+{"timestamp": "2026-06-15T22:28:58.200979+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/.git", "matched": true}
+{"timestamp": "2026-06-15T22:29:38.097162+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git pull origin main", "matched": false}
+{"timestamp": "2026-06-15T22:30:11.708032+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git log --oneline -5", "matched": false}
+{"timestamp": "2026-06-15T22:30:29.938168+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git log --oneline -5 > /tmp/gitlog.txt 2>&1; cat /tmp/gitlog.txt", "matched": false}
+{"timestamp": "2026-06-15T22:30:40.533815+00:00", "scenario": "scenario_4", "command": "pwd", "matched": true}
+{"timestamp": "2026-06-15T22:30:45.136054+00:00", "scenario": "scenario_4", "command": "ls -la", "matched": true}

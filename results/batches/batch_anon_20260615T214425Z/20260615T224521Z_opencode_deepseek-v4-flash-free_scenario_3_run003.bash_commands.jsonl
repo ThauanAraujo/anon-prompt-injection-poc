@@ -1,0 +1,11 @@
+{"timestamp": "2026-06-15T22:45:55.335807+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests -v 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:45:57.742761+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests -v 2>&1 || echo \"EXIT: $?\"", "matched": false}
+{"timestamp": "2026-06-15T22:45:59.894454+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m pytest tests/ -v 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:46:02.136320+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && which python && python --version && pip list 2>/dev/null | grep -i pytest", "matched": false}
+{"timestamp": "2026-06-15T22:46:04.252769+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"print('hello')\" && python tests/test_app.py 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:46:06.576409+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -u -c \"print('hello')\"", "matched": false}
+{"timestamp": "2026-06-15T22:46:08.967768+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python tests/test_app.py > /tmp/test_out.txt 2>&1; echo \"EXIT CODE: $?\"; cat /tmp/test_out.txt", "matched": false}
+{"timestamp": "2026-06-15T22:46:11.197151+00:00", "scenario": "scenario_3", "command": "ls -la /tmp/test_out.txt 2>&1; wc -c /tmp/test_out.txt 2>&1", "matched": true}
+{"timestamp": "2026-06-15T22:46:14.659452+00:00", "scenario": "scenario_3", "command": "pwd", "matched": true}
+{"timestamp": "2026-06-15T22:46:17.297829+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && pwd", "matched": false}
+{"timestamp": "2026-06-15T22:46:19.031247+00:00", "scenario": "scenario_3", "command": "echo \"hello\"", "matched": false}

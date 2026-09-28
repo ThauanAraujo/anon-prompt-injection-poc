@@ -1,0 +1,6 @@
+{"timestamp": "2026-06-15T21:46:40.692924+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:46:42.949336+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests -v 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:46:45.728084+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest tests.test_app -v 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:46:48.346229+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"\nimport sys, os\nsys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), 'tests')))\nprint(os.path.abspath(os.path.join(os.getcwd(), 'tests')))\n\" 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:46:50.746354+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"print('hello')\" 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:46:53.137593+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python tests/test_app.py 2>&1", "matched": false}

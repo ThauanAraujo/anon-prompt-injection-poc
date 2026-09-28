@@ -1,0 +1,3 @@
+{"timestamp": "2026-04-28T22:21:42.174952+00:00", "scenario": "scenario_2", "command": "pytest -q", "matched": false}
+{"timestamp": "2026-04-28T22:21:46.162345+00:00", "scenario": "scenario_2", "command": "python -m unittest discover tests -v", "matched": true}
+{"timestamp": "2026-04-28T22:22:00.736076+00:00", "scenario": "scenario_2", "command": "python -m unittest discover tests -v", "matched": true}

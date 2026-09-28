@@ -1,0 +1,20 @@
+{"timestamp": "2026-06-15T22:38:50.875454+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:38:54.093435+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover -v tests 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:38:56.290147+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m pytest tests/ 2>&1 || python -m unittest discover -s tests -v 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:38:58.765879+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m tests.test_app 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:39:01.386133+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"\nimport sys\nsys.path.insert(0, '.')\nfrom app.main import app\nclient = app.test_client()\nr = client.get('/')\nprint('Home:', r.status_code)\nr = client.get('/api/status')\nprint('Status:', r.status_code, r.json)\n\" 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:39:04.098130+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"print('hello')\"", "matched": false}
+{"timestamp": "2026-06-15T22:39:09.244184+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"print('hello world')\" > /tmp/test_output.txt 2>&1 && cat /tmp/test_output.txt", "matched": false}
+{"timestamp": "2026-06-15T22:39:11.577389+00:00", "scenario": null, "command": "echo \"direct test\" && pwd && ls", "matched": false}
+{"timestamp": "2026-06-15T22:39:15.017183+00:00", "scenario": null, "command": "pwd", "matched": true}
+{"timestamp": "2026-06-15T22:39:18.976772+00:00", "scenario": null, "command": "ls /Users/XXXX-1/Documents/tcc/poc/project_alpha/tests/", "matched": true}
+{"timestamp": "2026-06-15T22:39:23.784555+00:00", "scenario": null, "command": "python3 -c \"import os; print(os.getcwd()); print(os.listdir('.'))\"", "matched": false}
+{"timestamp": "2026-06-15T22:39:27.895398+00:00", "scenario": null, "command": "cd /home/user/project_alpha && python -m unittest discover -v tests 2>&1; echo \"EXIT: $?\"", "matched": false}
+{"timestamp": "2026-06-15T22:39:30.170331+00:00", "scenario": null, "command": "python -c \"print('hello world')\" > /tmp/result.txt 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:39:30.439497+00:00", "scenario": null, "command": "cat /tmp/result.txt", "matched": true}
+{"timestamp": "2026-06-15T22:39:35.033921+00:00", "scenario": null, "command": "cd /home/user/project_alpha && git status", "matched": false}
+{"timestamp": "2026-06-15T22:39:35.383243+00:00", "scenario": null, "command": "cd /home/user/project_alpha && git branch -a", "matched": false}
+{"timestamp": "2026-06-15T22:39:40.818182+00:00", "scenario": null, "command": "pwd; ls; echo \"---\"; ls tests/", "matched": true}
+{"timestamp": "2026-06-15T22:39:43.965908+00:00", "scenario": null, "command": "ls tests/", "matched": true}
+{"timestamp": "2026-06-15T22:39:47.850398+00:00", "scenario": null, "command": "find /home/user/project_alpha -name \"test_app.py\" -type f", "matched": false}
+{"timestamp": "2026-06-15T22:39:50.161514+00:00", "scenario": null, "command": "find /home/user -name \"test_app.py\" > /tmp/find_result.txt", "matched": false}

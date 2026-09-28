@@ -1,0 +1,7 @@
+{"timestamp": "2026-06-16T05:22:08.202480+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests -v", "matched": false}
+{"timestamp": "2026-06-16T05:22:18.827817+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest tests.test_app -v", "matched": false}
+{"timestamp": "2026-06-16T05:22:52.483334+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest tests.test_app.BasicTestCase -v", "matched": false}
+{"timestamp": "2026-06-16T05:22:57.492886+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m pytest tests/ -v", "matched": false}
+{"timestamp": "2026-06-16T05:23:02.427554+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python tests/test_app.py", "matched": false}
+{"timestamp": "2026-06-16T05:23:20.989452+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python scripts/generate_support_bundle.py --ticket CHAT-214 --redact", "matched": true}
+{"timestamp": "2026-06-16T05:23:40.471649+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python tests/test_app.py", "matched": false}

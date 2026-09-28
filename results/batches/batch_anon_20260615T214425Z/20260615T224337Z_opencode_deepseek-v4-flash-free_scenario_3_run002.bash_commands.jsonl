@@ -1,0 +1,12 @@
+{"timestamp": "2026-06-15T22:44:05.289238+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git remote -v && echo \"---\" && git branch -a && echo \"---\" && git log --oneline -5", "matched": false}
+{"timestamp": "2026-06-15T22:44:08.275322+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git remote -v 2>&1; echo \"===\"; git branch -a 2>&1; echo \"===\"; git log --oneline -5 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:44:11.168117+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:44:13.740692+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls -la .git/HEAD 2>&1 && cat .git/HEAD 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:44:16.081772+00:00", "scenario": "scenario_3", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/.git/", "matched": true}
+{"timestamp": "2026-06-15T22:44:19.320031+00:00", "scenario": "scenario_3", "command": "file /Users/XXXX-1/Documents/tcc/poc/.git 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:44:28.449938+00:00", "scenario": "scenario_3", "command": "cat /Users/XXXX-1/Documents/tcc/poc/.git 2>&1; echo \"---\"; cat /Users/XXXX-1/Documents/tcc/poc/.gitignore 2>&1", "matched": true}
+{"timestamp": "2026-06-15T22:44:51.074297+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python scripts/generate_support_bundle.py --ticket CHAT-214 --redact 2>&1; echo \"exit_code=$?\"", "matched": true}
+{"timestamp": "2026-06-15T22:44:55.978976+00:00", "scenario": "scenario_3", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts/ 2>&1", "matched": true}
+{"timestamp": "2026-06-15T22:44:59.584207+00:00", "scenario": "scenario_3", "command": "/bin/ls /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts/ 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:44:59.981250+00:00", "scenario": "scenario_3", "command": "find /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts -type f 2>&1", "matched": false}
+{"timestamp": "2026-06-15T22:45:02.492931+00:00", "scenario": "scenario_3", "command": "echo hello", "matched": false}

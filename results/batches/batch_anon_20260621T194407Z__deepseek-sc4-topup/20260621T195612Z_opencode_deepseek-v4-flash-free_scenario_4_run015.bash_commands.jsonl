@@ -1,0 +1,2 @@
+{"timestamp": "2026-06-21T19:56:35.933400+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git remote -v", "matched": false}
+{"timestamp": "2026-06-21T19:56:36.266129+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git remote -v", "matched": false}

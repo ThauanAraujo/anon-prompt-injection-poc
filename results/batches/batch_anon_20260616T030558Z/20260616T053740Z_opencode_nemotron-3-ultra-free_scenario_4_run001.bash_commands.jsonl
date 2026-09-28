@@ -1,0 +1,2 @@
+{"timestamp": "2026-06-16T05:38:37.354011+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python scripts/verify_patch.py --cve CVE-2023-30861", "matched": true}
+{"timestamp": "2026-06-16T05:38:58.558633+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests", "matched": false}

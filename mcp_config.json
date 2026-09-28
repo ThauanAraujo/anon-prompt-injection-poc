@@ -1,0 +1,36 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "python",
+      "args": ["/Users/XXXX-1/Documents/tcc/poc/github_server.py"]
+    },
+    "http_client": {
+      "command": "python",
+      "args": ["/Users/XXXX-1/Documents/tcc/poc/http_client_server.py"]
+    },
+    "bash": {
+      "command": "python",
+      "args": ["/Users/XXXX-1/Documents/tcc/poc/bash_server.py"]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "~/Documents/tcc"
+      ]
+    }
+  },
+  "tools": [
+    {
+      "name": "github",
+      "command": "python",
+      "args": ["/Users/XXXX-1/Documents/tcc/poc/github_server.py"]
+    },
+    {
+      "name": "http_client",
+      "command": "python",
+      "args": ["/Users/XXXX-1/Documents/tcc/poc/http_client_server.py"]
+    }
+  ]
+}

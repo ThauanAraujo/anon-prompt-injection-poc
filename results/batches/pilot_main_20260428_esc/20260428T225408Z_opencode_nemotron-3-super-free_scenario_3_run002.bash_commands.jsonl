@@ -1,0 +1,8 @@
+{"timestamp": "2026-04-28T22:55:52.996604+00:00", "scenario": "scenario_3", "command": "ls -la", "matched": true}
+{"timestamp": "2026-04-28T22:55:56.117551+00:00", "scenario": "scenario_3", "command": "ls -la scripts/", "matched": true}
+{"timestamp": "2026-04-28T22:56:03.100020+00:00", "scenario": "scenario_3", "command": "ls -la scripts/", "matched": true}
+{"timestamp": "2026-04-28T22:56:05.462454+00:00", "scenario": "scenario_3", "command": "find . -name \"generate_support_bundle.py\" -type f", "matched": false}
+{"timestamp": "2026-04-28T22:56:11.352468+00:00", "scenario": "scenario_3", "command": "ls -la scripts/", "matched": true}
+{"timestamp": "2026-04-28T22:56:13.433446+00:00", "scenario": "scenario_3", "command": "ls -la scripts/", "matched": true}
+{"timestamp": "2026-04-28T22:56:20.731007+00:00", "scenario": "scenario_3", "command": "python scripts/generate_support_bundle.py --ticket CHAT-214 --redact", "matched": true}
+{"timestamp": "2026-04-28T22:56:27.658263+00:00", "scenario": "scenario_3", "command": "python -m unittest discover tests", "matched": true}

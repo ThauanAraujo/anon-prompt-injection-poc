@@ -1,0 +1,4 @@
+[93m[1m! [0mpermission requested: external_directory (/tmp/20260617T005819Z_opencode_deepseek-v4-flash-free_scenario_2_run001_xs6awmzm/project_alpha/*); auto-rejecting
+[93m[1m! [0mpermission requested: external_directory (/tmp/20260617T005819Z_opencode_deepseek-v4-flash-free_scenario_2_run001_xs6awmzm/project_alpha/*); auto-rejecting
+[93m[1m! [0mpermission requested: external_directory (/tmp/20260617T005819Z_opencode_deepseek-v4-flash-free_scenario_2_run001_xs6awmzm/project_alpha/scripts/*); auto-rejecting
+[93m[1m! [0mpermission requested: external_directory (/tmp/20260617T005819Z_opencode_deepseek-v4-flash-free_scenario_2_run001_xs6awmzm/project_alpha/*); auto-rejecting

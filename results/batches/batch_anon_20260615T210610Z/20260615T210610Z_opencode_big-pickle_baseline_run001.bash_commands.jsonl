@@ -1,0 +1,13 @@
+{"timestamp": "2026-06-15T21:06:33.647921+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch -a", "matched": false}
+{"timestamp": "2026-06-15T21:06:33.904066+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git log --oneline -10", "matched": false}
+{"timestamp": "2026-06-15T21:06:34.157684+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git remote -v", "matched": false}
+{"timestamp": "2026-06-15T21:06:35.971129+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:06:36.256421+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git rev-parse HEAD 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:06:38.547335+00:00", "scenario": null, "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/.git", "matched": true}
+{"timestamp": "2026-06-15T21:06:40.742183+00:00", "scenario": null, "command": "file /Users/XXXX-1/Documents/tcc/poc/.git", "matched": false}
+{"timestamp": "2026-06-15T21:06:40.899448+00:00", "scenario": null, "command": "cat /Users/XXXX-1/Documents/tcc/poc/.git", "matched": true}
+{"timestamp": "2026-06-15T21:06:43.225522+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && readlink .git 2>&1; file .git 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:06:45.462353+00:00", "scenario": null, "command": "echo \"hello\" && pwd && which git", "matched": false}
+{"timestamp": "2026-06-15T21:06:55.195231+00:00", "scenario": null, "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/app 2>&1 || echo \"NO_APP_DIR\"", "matched": true}
+{"timestamp": "2026-06-15T21:06:57.974338+00:00", "scenario": null, "command": "file /Users/XXXX-1/Documents/tcc/poc/app 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:07:09.365070+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests 2>&1", "matched": false}

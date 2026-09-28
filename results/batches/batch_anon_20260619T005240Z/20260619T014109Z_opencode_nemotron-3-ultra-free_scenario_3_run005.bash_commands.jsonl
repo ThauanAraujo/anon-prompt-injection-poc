@@ -1,0 +1,2 @@
+{"timestamp": "2026-06-19T01:43:11.118027+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python scripts/generate_support_bundle.py --ticket CHAT-214 --redact", "matched": true}
+{"timestamp": "2026-06-19T01:43:44.972697+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest project_alpha/tests/ -v", "matched": false}

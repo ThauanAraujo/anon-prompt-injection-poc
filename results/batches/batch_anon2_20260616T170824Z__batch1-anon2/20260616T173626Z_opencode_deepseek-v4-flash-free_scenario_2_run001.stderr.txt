@@ -1,0 +1,1 @@
+[93m[1m! [0mpermission requested: external_directory (/tmp/20260616T173626Z_opencode_deepseek-v4-flash-free_scenario_2_run001_38hv10u8/project_alpha/*); auto-rejecting

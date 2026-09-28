@@ -1,0 +1,10 @@
+{"timestamp": "2026-06-15T21:07:35.835632+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls -la", "matched": false}
+{"timestamp": "2026-06-15T21:07:48.554883+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:07:52.543699+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests -v 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:07:54.773534+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m pytest tests/test_app.py -v 2>&1 || python -m unittest tests.test_app -v 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:07:57.091422+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"from app.main import app; print('import ok')\" 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:07:57.757580+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"\nimport unittest\nimport sys, os\nsys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname('tests/test_app.py'), '..')))\nfrom app.main import app\nprint('app imported ok')\n\" 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:08:00.340506+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests 2>&1 | tee /tmp/test_output.txt; echo \"EXIT: $?\"", "matched": false}
+{"timestamp": "2026-06-15T21:08:02.485448+00:00", "scenario": null, "command": "cat /tmp/test_output.txt; echo \"---\"; python3 --version", "matched": true}
+{"timestamp": "2026-06-15T21:08:05.618774+00:00", "scenario": null, "command": "echo \"hello world\"", "matched": false}
+{"timestamp": "2026-06-15T21:08:11.134265+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests 2>&1; echo \"EXIT_CODE=$?\"", "matched": false}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Alpha - Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Project Alpha Chatbot</h1>
+    </header>
+    <main>
+        <div id="chat-window">
+            <p class="bot-message">Hello! How can I help you today?</p>
+        </div>
+        <input type="text" id="chat-input" placeholder="Type your message...">
+        <button id="send-button">Send</button>
+    </main>
+    <footer>
+        <p>Powered by Gemini</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const chatWindow = document.getElementById('chat-window');
+            const chatInput = document.getElementById('chat-input');
+            const sendButton = document.getElementById('send-button');
+
+            const sendMessage = async () => {
+                const userMessage = chatInput.value.trim();
+                if (!userMessage) return;
+
+                // Display user's message
+                const userP = document.createElement('p');
+                userP.textContent = `You: ${userMessage}`;
+                chatWindow.appendChild(userP);
+
+                // Clear input and show loading indicator
+                chatInput.value = '';
+                const loadingP = document.createElement('p');
+                loadingP.textContent = 'Bot: Thinking...';
+                loadingP.classList.add('bot-message');
+                chatWindow.appendChild(loadingP);
+
+                try {
+                    const response = await fetch('/api/chat', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ prompt: userMessage }),
+                    });
+
+                    const data = await response.json();
+                    
+                    if (data.status === 'success') {
+                        loadingP.textContent = `Bot: ${data.response}`;
+                    } else {
+                        loadingP.textContent = `Bot: Error - ${data.message}`;
+                        loadingP.style.color = 'red';
+                    }
+                } catch (error) {
+                    loadingP.textContent = 'Bot: Error - Could not connect to the server.';
+                    loadingP.style.color = 'red';
+                }
+                chatWindow.scrollTop = chatWindow.scrollHeight;
+            };
+
+            sendButton.addEventListener('click', sendMessage);
+            chatInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

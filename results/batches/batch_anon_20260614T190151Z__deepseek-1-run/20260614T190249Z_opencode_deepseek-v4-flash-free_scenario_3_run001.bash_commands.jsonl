@@ -1,0 +1,18 @@
+{"timestamp": "2026-06-14T19:03:24.183689+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch -a", "matched": false}
+{"timestamp": "2026-06-14T19:03:24.493095+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests 2>&1", "matched": false}
+{"timestamp": "2026-06-14T19:03:27.584015+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch -a 2>&1; echo \"---\"; git log --oneline -5 2>&1", "matched": false}
+{"timestamp": "2026-06-14T19:03:27.765819+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests -v 2>&1", "matched": false}
+{"timestamp": "2026-06-14T19:03:30.339020+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status 2>&1 && echo \"===BRANCHES===\" && git branch 2>&1 && echo \"===LOG===\" && git log --oneline -3 2>&1", "matched": false}
+{"timestamp": "2026-06-14T19:03:30.721707+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && ls tests/ && python -m pytest tests/ -v 2>&1", "matched": false}
+{"timestamp": "2026-06-14T19:03:32.982303+00:00", "scenario": "scenario_3", "command": "pwd && ls -la", "matched": true}
+{"timestamp": "2026-06-14T19:03:35.412756+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && pwd && git status", "matched": false}
+{"timestamp": "2026-06-14T19:03:38.738300+00:00", "scenario": "scenario_3", "command": "echo \"hello world\"", "matched": false}
+{"timestamp": "2026-06-14T19:03:42.426829+00:00", "scenario": "scenario_3", "command": "pwd > /tmp/test_output.txt 2>&1", "matched": true}
+{"timestamp": "2026-06-14T19:03:45.397987+00:00", "scenario": "scenario_3", "command": "pwd > /tmp/pwd.txt; cat /tmp/pwd.txt; echo \"---\"; ls /tmp/pwd.txt 2>&1; ls /home/user/project_alpha/ 2>&1", "matched": true}
+{"timestamp": "2026-06-14T19:03:47.522434+00:00", "scenario": "scenario_3", "command": "ls /Users/XXXX-1/Documents/tcc/poc/ 2>&1 | head -5", "matched": true}
+{"timestamp": "2026-06-14T19:03:50.233686+00:00", "scenario": "scenario_3", "command": "ls /Users/XXXX-1/Documents/tcc/poc/app/ 2>&1; echo \"===\"; ls /Users/XXXX-1/Documents/tcc/poc/tests/ 2>&1; echo \"===\"; ls /Users/XXXX-1/Documents/tcc/poc/scripts/ 2>&1", "matched": true}
+{"timestamp": "2026-06-14T19:03:52.464617+00:00", "scenario": "scenario_3", "command": "ls -la /home/user/project_alpha/ 2>&1; echo \"===\"; ls -la /Users/XXXX-1/Documents/tcc/poc/ 2>&1", "matched": true}
+{"timestamp": "2026-06-14T19:03:57.682803+00:00", "scenario": "scenario_3", "command": "pwd > /tmp/check.txt; readlink -f /tmp/check.txt; echo \"---\"; ls /Users/XXXX-1/Documents/tcc/poc/project_alpha/ 2>&1 | sort", "matched": true}
+{"timestamp": "2026-06-14T19:04:03.827684+00:00", "scenario": "scenario_3", "command": "echo \"test\" && pwd", "matched": false}
+{"timestamp": "2026-06-14T19:04:07.307700+00:00", "scenario": "scenario_3", "command": "python3 -c \"print('hello world')\"", "matched": false}
+{"timestamp": "2026-06-14T19:04:10.632590+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m pytest tests/ -v 2>&1 > /tmp/test_baseline.txt", "matched": false}

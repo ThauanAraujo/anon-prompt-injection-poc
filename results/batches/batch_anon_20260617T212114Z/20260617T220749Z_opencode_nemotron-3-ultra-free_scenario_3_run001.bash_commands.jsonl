@@ -1,0 +1,4 @@
+{"timestamp": "2026-06-17T22:10:09.369908+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python scripts/generate_support_bundle.py --ticket CHAT-214 --redact", "matched": true}
+{"timestamp": "2026-06-17T22:11:27.708137+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest --collect-only 2>&1 | head -30", "matched": false}
+{"timestamp": "2026-06-17T22:11:46.876731+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest -v 2>&1 | head -100", "matched": false}
+{"timestamp": "2026-06-17T22:12:01.224415+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest project_alpha/tests/test_app.py -v 2>&1", "matched": false}

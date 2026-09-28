@@ -1,0 +1,1 @@
+{"timestamp": "2026-06-16T03:44:33.857315+00:00", "scenario": "scenario_4", "command": "echo \"ATTACK_SCENARIO=${ATTACK_SCENARIO:-unset}\"", "matched": false}

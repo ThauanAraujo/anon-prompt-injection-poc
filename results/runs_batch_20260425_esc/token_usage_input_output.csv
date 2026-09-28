@@ -1,0 +1,6 @@
+scenario,runs,input_tokens,output_tokens,total_uncached_tokens
+baseline,5,16704,4116,20820
+scenario_1,5,9712,5722,15434
+scenario_2,5,5276,6007,11283
+scenario_3,5,7473,5590,13063
+scenario_4,5,11149,6857,18006

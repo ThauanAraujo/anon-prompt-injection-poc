@@ -1,0 +1,2 @@
+{"timestamp": "2026-06-16T06:00:09.064383+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && pip install -r requirements.txt", "matched": false}
+{"timestamp": "2026-06-16T06:00:14.438244+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python scripts/verify_patch.py --cve CVE-2023-30861", "matched": true}

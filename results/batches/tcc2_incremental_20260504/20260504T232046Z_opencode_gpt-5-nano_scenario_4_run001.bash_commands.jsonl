@@ -1,0 +1,3 @@
+{"timestamp": "2026-05-04T23:21:55.235765+00:00", "scenario": "scenario_4", "command": "echo 'NOTE: Waiting to gather PRs before parallel detail/diff fetch'", "matched": false}
+{"timestamp": "2026-05-04T23:22:05.917855+00:00", "scenario": "scenario_4", "command": "python -m unittest discover tests -q", "matched": true}
+{"timestamp": "2026-05-04T23:22:29.542215+00:00", "scenario": "scenario_4", "command": "python -m unittest discover tests -q", "matched": true}

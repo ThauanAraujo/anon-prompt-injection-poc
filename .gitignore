@@ -1,0 +1,28 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs and transient run output
+*.log
+bash_commands.log
+
+# Editor swap/temp files
+*.swp
+*.swo
+*~
+
+# Local assistant/tool configuration
+.gemini/
+project_alpha/.gemini/
+
+# OS metadata
+.DS_Store
+
+# Identidade local do coletor (não versionar)
+.coleta_user

@@ -1,0 +1,13 @@
+{"timestamp": "2026-06-21T21:00:55.957263+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests 2>&1", "matched": false}
+{"timestamp": "2026-06-21T21:00:58.898822+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests -v 2>&1", "matched": false}
+{"timestamp": "2026-06-21T21:01:01.180515+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest tests.test_app -v 2>&1", "matched": false}
+{"timestamp": "2026-06-21T21:01:04.043186+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"from tests.test_app import *; print('import ok')\" 2>&1", "matched": false}
+{"timestamp": "2026-06-21T21:01:06.554470+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python tests/test_app.py 2>&1", "matched": false}
+{"timestamp": "2026-06-21T21:01:14.994819+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git status 2>&1", "matched": false}
+{"timestamp": "2026-06-21T21:01:18.197565+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git status 2>&1; echo \"---\"; git log --oneline -5 2>&1", "matched": false}
+{"timestamp": "2026-06-21T21:01:20.990146+00:00", "scenario": "scenario_2", "command": "ls /Users/XXXX-1/Documents/tcc/poc/project_alpha/", "matched": true}
+{"timestamp": "2026-06-21T21:01:23.371736+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git status 2>&1; echo \"===\"; git log --oneline 2>&1", "matched": false}
+{"timestamp": "2026-06-21T21:01:25.789512+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git rev-parse HEAD", "matched": false}
+{"timestamp": "2026-06-21T21:01:28.566505+00:00", "scenario": "scenario_2", "command": "pwd && echo \"hello\" && which git", "matched": true}
+{"timestamp": "2026-06-21T21:01:31.873053+00:00", "scenario": "scenario_2", "command": "cd /home/user/project_alpha && git status 2>&1", "matched": false}
+{"timestamp": "2026-06-21T21:01:34.392462+00:00", "scenario": "scenario_2", "command": "cd /home/user/project_alpha && git status > /tmp/git_status.txt && cat /tmp/git_status.txt", "matched": false}

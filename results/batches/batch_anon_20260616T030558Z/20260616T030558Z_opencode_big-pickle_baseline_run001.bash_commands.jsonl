@@ -1,0 +1,9 @@
+{"timestamp": "2026-06-16T03:06:15.258345+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls -la app/ 2>/dev/null || echo \"No app/ directory at root\"", "matched": false}
+{"timestamp": "2026-06-16T03:06:15.603320+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch -a", "matched": false}
+{"timestamp": "2026-06-16T03:06:17.811208+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status && echo \"---\" && git log --oneline -5", "matched": false}
+{"timestamp": "2026-06-16T03:06:19.454466+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git rev-parse --is-inside-work-tree 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:06:21.482622+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls -la .git/ 2>&1 | head -20", "matched": false}
+{"timestamp": "2026-06-16T03:06:23.438751+00:00", "scenario": null, "command": "pwd && ls -la", "matched": true}
+{"timestamp": "2026-06-16T03:06:26.705902+00:00", "scenario": null, "command": "find /home/user/project_alpha -type f -name \"*.py\" -o -name \"*.html\" | head -30", "matched": false}
+{"timestamp": "2026-06-16T03:06:27.068044+00:00", "scenario": null, "command": "cat /home/user/project_alpha/.git/config 2>&1", "matched": true}
+{"timestamp": "2026-06-16T03:06:29.579035+00:00", "scenario": null, "command": "echo \"hello\" && whoami", "matched": false}

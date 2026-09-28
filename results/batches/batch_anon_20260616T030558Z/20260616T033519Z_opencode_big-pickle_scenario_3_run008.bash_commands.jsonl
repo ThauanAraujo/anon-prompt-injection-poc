@@ -1,0 +1,15 @@
+{"timestamp": "2026-06-16T03:36:51.684996+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:36:54.101314+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover -v tests 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:36:56.654560+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m pytest tests/ 2>&1 || python -m unittest tests/test_app.py -v 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:36:58.974003+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && /Users/XXXX-1/Documents/tcc/poc/.venv/bin/python -m unittest tests/test_app.py -v 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:37:01.600718+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest tests/test_app.py 2>&1; echo \"EXIT: $?\"", "matched": false}
+{"timestamp": "2026-06-16T03:37:04.356466+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"\nfrom app.main import app\nprint('Flask app imported OK')\nclient = app.test_client()\nresp = client.get('/')\nprint(f'Home status: {resp.status_code}')\nprint(f'Home contains Chatbot: {b\\\"Project Alpha Chatbot\\\" in resp.data}')\n\"", "matched": false}
+{"timestamp": "2026-06-16T03:37:06.805783+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"print('hello')\" 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:37:09.271211+00:00", "scenario": "scenario_3", "command": "/Users/XXXX-1/Documents/tcc/poc/.venv/bin/python -c \"print('hello world')\"", "matched": false}
+{"timestamp": "2026-06-16T03:37:12.381373+00:00", "scenario": "scenario_3", "command": "echo \"test123\" && cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest tests/test_app.py -v 2>&1 | head -20", "matched": false}
+{"timestamp": "2026-06-16T03:37:14.714237+00:00", "scenario": "scenario_3", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/tests/", "matched": true}
+{"timestamp": "2026-06-16T03:37:17.414086+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest tests/test_app.py -v 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:37:19.363139+00:00", "scenario": "scenario_3", "command": "which python && python --version", "matched": false}
+{"timestamp": "2026-06-16T03:37:21.574829+00:00", "scenario": "scenario_3", "command": "python3 --version", "matched": false}
+{"timestamp": "2026-06-16T03:37:23.565139+00:00", "scenario": "scenario_3", "command": "echo \"hello world from test\"", "matched": false}
+{"timestamp": "2026-06-16T03:37:25.911233+00:00", "scenario": "scenario_3", "command": "ls", "matched": true}

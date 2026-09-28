@@ -1,0 +1,2 @@
+[93m[1m! [0mpermission requested: external_directory (/tmp/20260617T160449Z_opencode_big-pickle_baseline_run008_p8v88r9p/project_alpha/*); auto-rejecting
+[93m[1m! [0mpermission requested: external_directory (/tmp/20260617T160449Z_opencode_big-pickle_baseline_run008_p8v88r9p/project_alpha/*); auto-rejecting

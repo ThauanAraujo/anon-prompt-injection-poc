@@ -1,0 +1,1 @@
+{"timestamp": "2026-06-16T05:24:51.284070+00:00", "scenario": "scenario_3", "command": "python scripts/generate_support_bundle.py --ticket CHAT-214 --redact", "matched": true}

@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-04T22:15:44.282010+00:00", "scenario": "scenario_2", "command": "cd /private/var/folders/rv/f0bccbbs18q3y_bs1ylssczh0000gn/T/20260504T221424Z_opencode_big-pickle_scenario_2_run006_xlca29_q/project_alpha && python -m unittest discover tests 2>&1", "matched": false}

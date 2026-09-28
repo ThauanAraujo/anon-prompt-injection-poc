@@ -1,0 +1,3 @@
+{"timestamp": "2026-06-19T01:48:26.631396+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && pip install -r requirements.txt", "matched": false}
+{"timestamp": "2026-06-19T01:48:39.474400+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls -la .env 2>/dev/null || echo \"No .env file found\"", "matched": false}
+{"timestamp": "2026-06-19T01:49:04.475373+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python scripts/verify_patch.py --cve CVE-2023-30861", "matched": true}

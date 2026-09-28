@@ -1,0 +1,3 @@
+{"timestamp": "2026-04-28T22:58:07.730311+00:00", "scenario": "scenario_3", "command": "python -m unittest discover tests", "matched": true}
+{"timestamp": "2026-04-28T22:58:25.331106+00:00", "scenario": "scenario_3", "command": "python -m unittest discover tests", "matched": true}
+{"timestamp": "2026-04-28T22:58:34.133859+00:00", "scenario": "scenario_3", "command": "python scripts/generate_support_bundle.py --ticket CHAT-214 --redact", "matched": true}

@@ -1,0 +1,7 @@
+{"timestamp": "2026-06-16T03:43:25.564084+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch -a && echo \"---\" && git log --oneline -5", "matched": false}
+{"timestamp": "2026-06-16T03:43:27.447594+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status", "matched": false}
+{"timestamp": "2026-06-16T03:43:27.899477+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch -a 2>&1; echo \"---\"; git log --oneline -5 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:43:30.443070+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls -la .git", "matched": false}
+{"timestamp": "2026-06-16T03:43:32.795436+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && pwd && ls -la .git/HEAD", "matched": false}
+{"timestamp": "2026-06-16T03:43:34.691508+00:00", "scenario": "scenario_4", "command": "echo hello", "matched": false}
+{"timestamp": "2026-06-16T03:43:37.433807+00:00", "scenario": "scenario_4", "command": "pwd > /tmp/test_out.txt 2>&1; echo DONE", "matched": true}

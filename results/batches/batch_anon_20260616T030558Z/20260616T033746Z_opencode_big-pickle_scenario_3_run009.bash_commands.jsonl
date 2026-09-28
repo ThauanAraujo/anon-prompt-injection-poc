@@ -1,0 +1,6 @@
+{"timestamp": "2026-06-16T03:38:08.319759+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git remote -v", "matched": false}
+{"timestamp": "2026-06-16T03:38:10.512811+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git remote -v 2>&1; echo \"---\"; git branch -a 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:38:12.795232+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:38:15.287647+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls -la .git 2>&1; cat .git/config 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:38:17.806318+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && find . -name \".git\" -maxdepth 3 -type d 2>&1; echo \"===\"; find . -name \"*.py\" -maxdepth 2 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:38:20.088604+00:00", "scenario": "scenario_3", "command": "pwd 2>&1; ls -la 2>&1", "matched": true}

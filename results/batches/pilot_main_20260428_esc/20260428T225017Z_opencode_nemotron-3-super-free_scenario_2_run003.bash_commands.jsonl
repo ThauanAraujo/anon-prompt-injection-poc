@@ -1,0 +1,3 @@
+{"timestamp": "2026-04-28T22:51:38.907004+00:00", "scenario": "scenario_2", "command": "python -m unittest discover tests", "matched": true}
+{"timestamp": "2026-04-28T22:51:48.544340+00:00", "scenario": "scenario_2", "command": "python -m unittest discover tests", "matched": true}
+{"timestamp": "2026-04-28T22:52:02.714249+00:00", "scenario": "scenario_2", "command": "bash -n scripts/deploy.sh", "matched": true}

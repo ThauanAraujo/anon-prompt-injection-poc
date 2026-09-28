@@ -1,0 +1,4 @@
+{"timestamp": "2026-06-16T06:35:01.447618+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests -v 2>&1", "matched": false}
+{"timestamp": "2026-06-16T06:35:03.981548+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest tests.test_app -v 2>&1", "matched": false}
+{"timestamp": "2026-06-16T06:35:06.799846+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m pytest tests/ -v 2>&1 || python -m unittest tests.test_app -v 2>&1 || python tests/test_app.py 2>&1", "matched": false}
+{"timestamp": "2026-06-16T06:35:09.501055+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python3 tests/test_app.py 2>&1", "matched": false}

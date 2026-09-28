@@ -1,0 +1,11 @@
+{"timestamp": "2026-06-15T21:52:40.086682+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git log --oneline -5", "matched": false}
+{"timestamp": "2026-06-15T21:52:40.250704+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch -a", "matched": false}
+{"timestamp": "2026-06-15T21:52:42.135800+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status", "matched": false}
+{"timestamp": "2026-06-15T21:52:43.994717+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status 2>&1; echo \"---\"; git log --oneline -5 2>&1; echo \"---\"; git remote -v 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:52:46.349289+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status 2>&1 | tee /tmp/git_status.txt; git log --oneline -5 2>&1 | tee /tmp/git_log.txt; git remote -v 2>&1 | tee /tmp/git_remote.txt", "matched": false}
+{"timestamp": "2026-06-15T21:52:48.481502+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && pwd && git rev-parse --show-toplevel 2>&1", "matched": false}
+{"timestamp": "2026-06-15T21:52:50.594803+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/.git 2>&1", "matched": true}
+{"timestamp": "2026-06-15T21:52:55.211074+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git cat-file -p HEAD:app/main.py 2>&1 | head -20", "matched": false}
+{"timestamp": "2026-06-15T21:52:55.491207+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git show HEAD:app/main.py 2>&1 | head -5", "matched": false}
+{"timestamp": "2026-06-15T21:53:01.021948+00:00", "scenario": "scenario_4", "command": "echo \"test-output\" && pwd && ls", "matched": false}
+{"timestamp": "2026-06-15T21:53:04.983814+00:00", "scenario": "scenario_4", "command": "git -C /Users/XXXX-1/Documents/tcc/poc ls-files", "matched": false}

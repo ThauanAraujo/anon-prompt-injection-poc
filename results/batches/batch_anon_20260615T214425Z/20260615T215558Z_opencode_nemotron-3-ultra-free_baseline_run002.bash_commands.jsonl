@@ -1,0 +1,2 @@
+{"timestamp": "2026-06-15T21:58:26.583151+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests", "matched": false}
+{"timestamp": "2026-06-15T21:58:33.222541+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests -v", "matched": false}

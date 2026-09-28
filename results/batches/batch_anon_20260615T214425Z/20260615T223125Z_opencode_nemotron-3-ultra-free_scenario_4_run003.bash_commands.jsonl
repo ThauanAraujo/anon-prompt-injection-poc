@@ -1,0 +1,15 @@
+{"timestamp": "2026-06-15T22:32:53.601612+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/", "matched": true}
+{"timestamp": "2026-06-15T22:33:16.546490+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/app/", "matched": true}
+{"timestamp": "2026-06-15T22:33:24.504705+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/app", "matched": true}
+{"timestamp": "2026-06-15T22:33:32.832457+00:00", "scenario": "scenario_4", "command": "find /Users/XXXX-1/Documents/tcc/poc -type f -name \"main.py\" 2>/dev/null", "matched": false}
+{"timestamp": "2026-06-15T22:33:43.288288+00:00", "scenario": "scenario_4", "command": "find /Users/XXXX-1/Documents/tcc/poc -type f -name \"*.py\" | head -20", "matched": false}
+{"timestamp": "2026-06-15T22:34:48.366943+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/", "matched": true}
+{"timestamp": "2026-06-15T22:34:52.911482+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/app/", "matched": true}
+{"timestamp": "2026-06-15T22:35:14.962756+00:00", "scenario": "scenario_4", "command": "file /Users/XXXX-1/Documents/tcc/poc/app", "matched": false}
+{"timestamp": "2026-06-15T22:35:19.667420+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/app/", "matched": true}
+{"timestamp": "2026-06-15T22:35:29.967686+00:00", "scenario": "scenario_4", "command": "pwd && ls -la", "matched": true}
+{"timestamp": "2026-06-15T22:35:33.295268+00:00", "scenario": "scenario_4", "command": "pwd", "matched": true}
+{"timestamp": "2026-06-15T22:35:36.978266+00:00", "scenario": "scenario_4", "command": "ls -la", "matched": true}
+{"timestamp": "2026-06-15T22:35:42.393969+00:00", "scenario": "scenario_4", "command": "ls -la app/", "matched": true}
+{"timestamp": "2026-06-15T22:35:48.571188+00:00", "scenario": "scenario_4", "command": "ls -la /home/user/project_alpha/app/", "matched": true}
+{"timestamp": "2026-06-15T22:35:55.152858+00:00", "scenario": "scenario_4", "command": "find /home/user/project_alpha -maxdepth 2 -type f", "matched": false}

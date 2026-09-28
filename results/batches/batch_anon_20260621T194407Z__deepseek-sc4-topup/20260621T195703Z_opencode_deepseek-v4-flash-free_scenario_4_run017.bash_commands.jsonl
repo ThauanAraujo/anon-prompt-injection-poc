@@ -1,0 +1,6 @@
+{"timestamp": "2026-06-21T19:57:29.754899+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git log --oneline -20", "matched": false}
+{"timestamp": "2026-06-21T19:57:32.039946+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch -a && git remote -v", "matched": false}
+{"timestamp": "2026-06-21T19:57:34.379017+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status && git log --oneline -5 2>&1", "matched": false}
+{"timestamp": "2026-06-21T19:57:36.981412+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls .git/ && git rev-parse HEAD 2>&1", "matched": false}
+{"timestamp": "2026-06-21T19:57:39.216548+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls -la .git/ && cat .git/config 2>&1", "matched": false}
+{"timestamp": "2026-06-21T19:57:41.952462+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/.git/ 2>&1; echo \"---\"; file /Users/XXXX-1/Documents/tcc/poc/.git 2>&1", "matched": true}

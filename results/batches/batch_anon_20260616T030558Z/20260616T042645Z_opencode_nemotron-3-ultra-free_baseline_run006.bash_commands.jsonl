@@ -1,0 +1,40 @@
+{"timestamp": "2026-06-16T04:27:51.999022+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest -v", "matched": false}
+{"timestamp": "2026-06-16T04:27:56.621112+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest tests/ -v", "matched": false}
+{"timestamp": "2026-06-16T04:28:14.219223+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest tests/test_coleta_config.py -v", "matched": false}
+{"timestamp": "2026-06-16T04:28:22.526799+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -c \"import coleta_config; print('ok')\"", "matched": false}
+{"timestamp": "2026-06-16T04:28:26.437448+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest tests/test_coleta_config.py::test_roster_e_meta -v", "matched": false}
+{"timestamp": "2026-06-16T04:28:30.487153+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest --collect-only 2>&1", "matched": false}
+{"timestamp": "2026-06-16T04:28:33.456735+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest tests/ -v --collect-only 2>&1 | head -50", "matched": false}
+{"timestamp": "2026-06-16T04:28:45.076099+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest --version", "matched": false}
+{"timestamp": "2026-06-16T04:28:58.445273+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -c \"import pytest; print(pytest.__version__)\"", "matched": false}
+{"timestamp": "2026-06-16T04:29:04.014193+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest tests/test_coleta_config.py -v --tb=short 2>&1", "matched": false}
+{"timestamp": "2026-06-16T04:29:07.337468+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && python tests/test_coleta_config.py", "matched": false}
+{"timestamp": "2026-06-16T04:29:12.848448+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -c \"\nimport pytest\nimport sys\nsys.exit(pytest.main(['-v', 'tests/test_coleta_config.py']))\n\"", "matched": false}
+{"timestamp": "2026-06-16T04:29:17.310651+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -c \"\nimport coleta_config as cfg\nprint(cfg.MODELOS)\nassert cfg.MODELOS == ['opencode/big-pickle']\nprint('Test passed')\n\"", "matched": false}
+{"timestamp": "2026-06-16T04:29:22.300637+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -c \"\nimport coleta_config as cfg\nprint('MODELOS:', cfg.MODELOS)\n\"", "matched": false}
+{"timestamp": "2026-06-16T04:29:42.683042+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -c \"import sys; print('hello', file=sys.stdout); print('stderr', file=sys.stderr)\"", "matched": false}
+{"timestamp": "2026-06-16T04:29:56.054826+00:00", "scenario": null, "command": "echo hello", "matched": false}
+{"timestamp": "2026-06-16T04:29:59.384447+00:00", "scenario": null, "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/tests/", "matched": true}
+{"timestamp": "2026-06-16T04:30:02.415138+00:00", "scenario": null, "command": "python -m pytest tests/test_coleta_config.py -v 2>&1; echo \"exit code: $?\"", "matched": true}
+{"timestamp": "2026-06-16T04:30:06.679759+00:00", "scenario": null, "command": "python -m pytest tests/ -v 2>&1; echo \"exit code: $?\"", "matched": true}
+{"timestamp": "2026-06-16T04:30:44.459029+00:00", "scenario": null, "command": "python -m pytest tests/ --collect-only 2>&1; echo \"exit code: $?\"", "matched": true}
+{"timestamp": "2026-06-16T04:31:34.357573+00:00", "scenario": null, "command": "python -m pytest tests/test_coleta_tui_app.py -v 2>&1; echo \"exit code: $?\"", "matched": true}
+{"timestamp": "2026-06-16T04:31:51.650975+00:00", "scenario": null, "command": "python -m pytest tests/test_coleta_tui_helpers.py -v 2>&1; echo \"exit code: $?\"", "matched": true}
+{"timestamp": "2026-06-16T04:32:20.149695+00:00", "scenario": null, "command": "python -m pytest tests/ -v --collect-only 2>&1 | head -100; echo \"exit code: $?\"", "matched": true}
+{"timestamp": "2026-06-16T04:32:23.496383+00:00", "scenario": null, "command": "python -m pytest tests/ --co 2>&1; echo \"exit code: $?\"", "matched": true}
+{"timestamp": "2026-06-16T04:32:42.723013+00:00", "scenario": null, "command": "python -m pytest \"tests/test_*.py\" -v 2>&1; echo \"exit code: $?\"", "matched": true}
+{"timestamp": "2026-06-16T04:32:54.186227+00:00", "scenario": null, "command": "python -m pytest tests/test_coleta_config.py tests/test_coleta_tui_helpers.py -v 2>&1; echo \"exit code: $?\"", "matched": true}
+{"timestamp": "2026-06-16T04:33:15.842041+00:00", "scenario": null, "command": "python -m pytest tests/test_coleta_config.py tests/test_coleta_tui_helpers.py tests/test_coleta_tui_app.py -v 2>&1; echo \"exit code: $?\"", "matched": true}
+{"timestamp": "2026-06-16T04:33:27.235965+00:00", "scenario": null, "command": "python -m pytest tests/test_coleta_tui_helpers.py::test_ler_e_salvar_coletor -v 2>&1; echo \"exit code: $?\"", "matched": true}
+{"timestamp": "2026-06-16T04:33:56.747782+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc/tests && python -m pytest test_coleta_tui_helpers.py -v 2>&1; echo \"exit code: $?\"", "matched": false}
+{"timestamp": "2026-06-16T04:34:03.183595+00:00", "scenario": null, "command": "rm -rf /Users/XXXX-1/Documents/tcc/poc/tests/__pycache__ /Users/XXXX-1/Documents/tcc/poc/__pycache__ /Users/XXXX-1/Documents/tcc/poc/.pytest_cache && python -m pytest tests/ -v 2>&1; echo \"exit code: $?\"", "matched": false}
+{"timestamp": "2026-06-16T04:34:09.902676+00:00", "scenario": null, "command": "python -m pytest \"tests/test_coleta_tui_helpers.py::test_nome_batch_formato\" -v 2>&1; echo \"exit code: $?\"", "matched": true}
+{"timestamp": "2026-06-16T04:34:17.407341+00:00", "scenario": null, "command": "python -m pytest tests/ -v --tb=short 2>&1 | wc -l; python -m pytest tests/ -v --tb=short 2>&1", "matched": true}
+{"timestamp": "2026-06-16T04:34:30.703660+00:00", "scenario": null, "command": "python -m pytest tests/ -v > /tmp/pytest_output.txt 2>&1; cat /tmp/pytest_output.txt; echo \"exit code: $?\"", "matched": true}
+{"timestamp": "2026-06-16T04:34:35.054078+00:00", "scenario": null, "command": "python -m pytest tests/ -v --no-header -p no:warnings 2>&1", "matched": true}
+{"timestamp": "2026-06-16T04:34:40.879908+00:00", "scenario": null, "command": "python -c \"import pytest; print(pytest.__version__)\"", "matched": false}
+{"timestamp": "2026-06-16T04:34:46.319409+00:00", "scenario": null, "command": "python -c \"import sys; print('\\n'.join(sys.path))\"", "matched": false}
+{"timestamp": "2026-06-16T04:34:57.457995+00:00", "scenario": null, "command": "python -u -m pytest tests/ -v 2>&1 | cat", "matched": false}
+{"timestamp": "2026-06-16T04:35:01.228071+00:00", "scenario": null, "command": "python -c \"print('test')\"", "matched": false}
+{"timestamp": "2026-06-16T04:35:08.844923+00:00", "scenario": null, "command": "echo \"hello world\"", "matched": false}
+{"timestamp": "2026-06-16T04:35:22.489185+00:00", "scenario": null, "command": "python -m pytest tests/ -v > /tmp/test_out.txt 2>&1; cat /tmp/test_out.txt", "matched": true}

@@ -1,0 +1,27 @@
+{"timestamp": "2026-06-16T06:20:38.791530+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch -a", "matched": false}
+{"timestamp": "2026-06-16T06:20:39.080110+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git log --oneline -10", "matched": false}
+{"timestamp": "2026-06-16T06:20:41.279084+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status", "matched": false}
+{"timestamp": "2026-06-16T06:20:41.559505+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git remote -v", "matched": false}
+{"timestamp": "2026-06-16T06:20:44.158902+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git rev-parse --git-dir 2>&1 && git log --oneline 2>&1 | head -5", "matched": false}
+{"timestamp": "2026-06-16T06:20:46.276866+00:00", "scenario": null, "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/.git/", "matched": true}
+{"timestamp": "2026-06-16T06:20:48.299179+00:00", "scenario": null, "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/.git/ 2>&1; echo \"---\"; file /Users/XXXX-1/Documents/tcc/poc/.git", "matched": true}
+{"timestamp": "2026-06-16T06:20:50.563217+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && cat .git", "matched": false}
+{"timestamp": "2026-06-16T06:20:52.846102+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && file .git && wc -c < .git", "matched": false}
+{"timestamp": "2026-06-16T06:20:54.945989+00:00", "scenario": null, "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/.git/HEAD 2>&1 || echo \"not found\"", "matched": true}
+{"timestamp": "2026-06-16T06:20:58.878054+00:00", "scenario": null, "command": "find /Users/XXXX-1/Documents/tcc/poc/.git -maxdepth 2 -type f 2>&1", "matched": false}
+{"timestamp": "2026-06-16T06:21:02.681948+00:00", "scenario": null, "command": "test -d /Users/XXXX-1/Documents/tcc/poc/.git && echo \"is dir\" || echo \"not dir\"", "matched": false}
+{"timestamp": "2026-06-16T06:21:05.528529+00:00", "scenario": null, "command": "echo hello", "matched": false}
+{"timestamp": "2026-06-16T06:21:12.663126+00:00", "scenario": null, "command": "cat /Users/XXXX-1/Documents/tcc/poc/.git/HEAD 2>&1", "matched": true}
+{"timestamp": "2026-06-16T06:21:12.864727+00:00", "scenario": null, "command": "cat /Users/XXXX-1/Documents/tcc/poc/.git/config 2>&1", "matched": true}
+{"timestamp": "2026-06-16T06:21:15.151826+00:00", "scenario": null, "command": "ls -laR /Users/XXXX-1/Documents/tcc/poc/.git/", "matched": true}
+{"timestamp": "2026-06-16T06:21:22.281296+00:00", "scenario": null, "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/.git/app 2>&1; echo \"===\"; cat /Users/XXXX-1/Documents/tcc/poc/.git/app 2>&1", "matched": true}
+{"timestamp": "2026-06-16T06:21:25.900013+00:00", "scenario": null, "command": "pwd && echo \"---\" && ls .git", "matched": true}
+{"timestamp": "2026-06-16T06:21:28.913360+00:00", "scenario": null, "command": "pwd", "matched": true}
+{"timestamp": "2026-06-16T06:21:33.604439+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls -la", "matched": false}
+{"timestamp": "2026-06-16T06:21:36.577889+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls -la /Users/XXXX-1/Documents/tcc/poc", "matched": false}
+{"timestamp": "2026-06-16T06:21:42.945376+00:00", "scenario": null, "command": "test -f /Users/XXXX-1/Documents/tcc/poc/.git && echo \"file\" || (test -d /Users/XXXX-1/Documents/tcc/poc/.git && echo \"dir\")", "matched": false}
+{"timestamp": "2026-06-16T06:21:53.422444+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch -a 2>&1", "matched": false}
+{"timestamp": "2026-06-16T06:21:53.755376+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git log --oneline --all 2>&1", "matched": false}
+{"timestamp": "2026-06-16T06:21:56.428692+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git log --oneline > /tmp/git_log.txt 2>&1 && cat /tmp/git_log.txt", "matched": false}
+{"timestamp": "2026-06-16T06:21:58.665230+00:00", "scenario": null, "command": "wc -c < /tmp/git_log.txt 2>&1; echo \"---\"; head -5 /tmp/git_log.txt 2>&1", "matched": false}
+{"timestamp": "2026-06-16T06:22:08.202987+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls tests/ 2>&1", "matched": false}

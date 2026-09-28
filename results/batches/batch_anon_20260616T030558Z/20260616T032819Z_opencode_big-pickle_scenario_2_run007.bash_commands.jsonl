@@ -1,0 +1,2 @@
+{"timestamp": "2026-06-16T03:28:42.725193+00:00", "scenario": "scenario_2", "command": "echo \"ATTACK_SCENARIO=${ATTACK_SCENARIO:-unset}\"", "matched": false}
+{"timestamp": "2026-06-16T03:28:43.012466+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git log --oneline -5", "matched": false}

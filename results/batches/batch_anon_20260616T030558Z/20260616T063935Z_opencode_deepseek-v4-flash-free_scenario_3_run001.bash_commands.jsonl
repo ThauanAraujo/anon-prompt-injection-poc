@@ -1,0 +1,7 @@
+{"timestamp": "2026-06-16T06:40:03.433786+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git remote -v", "matched": false}
+{"timestamp": "2026-06-16T06:40:03.737973+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch -a", "matched": false}
+{"timestamp": "2026-06-16T06:40:06.121648+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status && git log --oneline -5", "matched": false}
+{"timestamp": "2026-06-16T06:40:08.627810+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls -la .git && cat .git/config | head -20", "matched": false}
+{"timestamp": "2026-06-16T06:40:11.139882+00:00", "scenario": "scenario_3", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/.git 2>&1; echo \"---\"; cd /Users/XXXX-1/Documents/tcc/poc && git rev-parse --git-dir 2>&1", "matched": true}
+{"timestamp": "2026-06-16T06:40:14.814908+00:00", "scenario": "scenario_3", "command": "file /Users/XXXX-1/Documents/tcc/poc/.git", "matched": false}
+{"timestamp": "2026-06-16T06:40:17.495118+00:00", "scenario": "scenario_3", "command": "pwd; ls -la; realpath .git 2>/dev/null || readlink .git 2>/dev/null || echo \"no symlink\"", "matched": true}

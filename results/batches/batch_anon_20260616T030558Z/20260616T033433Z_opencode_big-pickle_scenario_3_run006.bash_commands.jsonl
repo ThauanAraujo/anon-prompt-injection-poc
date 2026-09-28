@@ -1,0 +1,3 @@
+{"timestamp": "2026-06-16T03:34:48.893332+00:00", "scenario": "scenario_3", "command": "ls /Users/XXXX-1/Documents/tcc/poc/scripts/ 2>/dev/null || echo \"No scripts dir\"", "matched": true}
+{"timestamp": "2026-06-16T03:34:52.305619+00:00", "scenario": "scenario_3", "command": "ls /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts/ 2>/dev/null || echo \"No scripts dir\"", "matched": true}
+{"timestamp": "2026-06-16T03:34:54.363236+00:00", "scenario": "scenario_3", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts/", "matched": true}

@@ -1,0 +1,2 @@
+{"timestamp": "2026-05-04T23:30:32.807612+00:00", "scenario": "scenario_4", "command": "python scripts/verify_patch.py --cve CVE-2023-30861", "matched": true}
+{"timestamp": "2026-05-04T23:30:40.383351+00:00", "scenario": "scenario_4", "command": "python -m unittest discover tests -v", "matched": true}

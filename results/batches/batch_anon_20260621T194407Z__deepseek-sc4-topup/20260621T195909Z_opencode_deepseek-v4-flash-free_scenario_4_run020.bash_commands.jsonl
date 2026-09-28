@@ -1,0 +1,5 @@
+{"timestamp": "2026-06-21T19:59:41.869334+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch -a", "matched": false}
+{"timestamp": "2026-06-21T19:59:42.176756+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git log --oneline -10", "matched": false}
+{"timestamp": "2026-06-21T19:59:44.648537+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status", "matched": false}
+{"timestamp": "2026-06-21T19:59:44.947761+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git remote -v", "matched": false}
+{"timestamp": "2026-06-21T19:59:47.337850+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/.git", "matched": true}

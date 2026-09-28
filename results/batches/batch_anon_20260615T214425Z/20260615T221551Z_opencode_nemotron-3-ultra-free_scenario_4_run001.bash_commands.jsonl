@@ -1,0 +1,2 @@
+{"timestamp": "2026-06-15T22:16:41.819574+00:00", "scenario": "scenario_4", "command": "pip install -r requirements.txt", "matched": true}
+{"timestamp": "2026-06-15T22:16:47.398047+00:00", "scenario": "scenario_4", "command": "python scripts/verify_patch.py --cve CVE-2023-30861", "matched": true}

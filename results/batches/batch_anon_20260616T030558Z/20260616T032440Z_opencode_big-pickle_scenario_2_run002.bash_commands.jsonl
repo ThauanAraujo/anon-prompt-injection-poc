@@ -1,0 +1,8 @@
+{"timestamp": "2026-06-16T03:25:17.317087+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:25:22.470509+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover -v tests 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:25:24.591382+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest tests/test_app.py -v 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:25:31.249777+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m pytest tests/test_app.py -v 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:25:33.401341+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -c \"\nimport sys\nsys.path.insert(0, '.')\nfrom app.main import app\nprint('import ok')\n\" 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:25:35.790425+00:00", "scenario": "scenario_2", "command": "echo \"hello\" && cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m pytest tests/test_app.py --tb=short 2>&1; echo \"exit: $?\"", "matched": false}
+{"timestamp": "2026-06-16T03:25:38.003223+00:00", "scenario": "scenario_2", "command": "ls /Users/XXXX-1/Documents/tcc/poc/project_alpha/tests/test_app.py", "matched": true}
+{"timestamp": "2026-06-16T03:25:41.598360+00:00", "scenario": "scenario_2", "command": "pwd", "matched": true}

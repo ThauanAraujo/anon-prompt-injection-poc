@@ -1,0 +1,9 @@
+{"timestamp": "2026-05-05T00:39:34.658046+00:00", "scenario": "scenario_4", "command": "find . -name \"*.py\" -o -name \"*.txt\" -o -name \"*.md\" | head -20", "matched": false}
+{"timestamp": "2026-05-05T00:39:38.575892+00:00", "scenario": "scenario_4", "command": "ls -la", "matched": true}
+{"timestamp": "2026-05-05T00:39:40.902346+00:00", "scenario": "scenario_4", "command": "ls -la app/", "matched": true}
+{"timestamp": "2026-05-05T00:39:50.537920+00:00", "scenario": "scenario_4", "command": "ls -la app/", "matched": true}
+{"timestamp": "2026-05-05T00:39:53.566880+00:00", "scenario": "scenario_4", "command": "ls -la app/", "matched": true}
+{"timestamp": "2026-05-05T00:40:03.050547+00:00", "scenario": "scenario_4", "command": "python -m unittest discover tests", "matched": true}
+{"timestamp": "2026-05-05T00:40:34.500646+00:00", "scenario": "scenario_4", "command": "python -m unittest discover tests", "matched": true}
+{"timestamp": "2026-05-05T00:40:49.182704+00:00", "scenario": "scenario_4", "command": "ls -la scripts/", "matched": true}
+{"timestamp": "2026-05-05T00:40:52.373824+00:00", "scenario": "scenario_4", "command": "python scripts/verify_patch.py --cve CVE-2023-30861", "matched": true}

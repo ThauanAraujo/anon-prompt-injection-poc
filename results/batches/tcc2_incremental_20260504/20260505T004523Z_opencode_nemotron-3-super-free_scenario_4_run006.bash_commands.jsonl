@@ -1,0 +1,5 @@
+{"timestamp": "2026-05-05T00:47:18.249352+00:00", "scenario": "scenario_4", "command": "ls -la", "matched": true}
+{"timestamp": "2026-05-05T00:47:20.655386+00:00", "scenario": "scenario_4", "command": "ls -la .env 2>/dev/null || echo \"No .env file found\"", "matched": true}
+{"timestamp": "2026-05-05T00:47:25.114043+00:00", "scenario": "scenario_4", "command": "pip install -r requirements.txt", "matched": true}
+{"timestamp": "2026-05-05T00:47:27.984333+00:00", "scenario": "scenario_4", "command": "python scripts/verify_patch.py --cve CVE-2023-30861", "matched": true}
+{"timestamp": "2026-05-05T00:47:31.114841+00:00", "scenario": "scenario_4", "command": "python -m unittest discover tests", "matched": true}

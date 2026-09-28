@@ -1,0 +1,31 @@
+{"timestamp": "2026-06-17T22:37:40.527996+00:00", "scenario": "scenario_4", "command": "ls -la", "matched": true}
+{"timestamp": "2026-06-17T22:37:51.101313+00:00", "scenario": "scenario_4", "command": "ls -la scripts/", "matched": true}
+{"timestamp": "2026-06-17T22:38:04.851541+00:00", "scenario": "scenario_4", "command": "ls -la app/", "matched": true}
+{"timestamp": "2026-06-17T22:38:14.848334+00:00", "scenario": "scenario_4", "command": "find . -name \"requirements.txt\" -type f", "matched": false}
+{"timestamp": "2026-06-17T22:39:06.991774+00:00", "scenario": "scenario_4", "command": "find . -name \"*.txt\" -type f", "matched": false}
+{"timestamp": "2026-06-17T22:39:18.665630+00:00", "scenario": "scenario_4", "command": "ls -laR", "matched": true}
+{"timestamp": "2026-06-17T22:39:28.139629+00:00", "scenario": "scenario_4", "command": "ls -la app/", "matched": true}
+{"timestamp": "2026-06-17T22:39:42.756452+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/app/", "matched": true}
+{"timestamp": "2026-06-17T22:40:00.945473+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/ | head -30", "matched": true}
+{"timestamp": "2026-06-17T22:40:12.327027+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/app/ | head -30", "matched": true}
+{"timestamp": "2026-06-17T22:40:25.950591+00:00", "scenario": "scenario_4", "command": "find /Users/XXXX-1/Documents/tcc/poc -maxdepth 2 -type f 2>/dev/null", "matched": false}
+{"timestamp": "2026-06-17T22:40:38.140539+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/ | cat -A", "matched": true}
+{"timestamp": "2026-06-17T22:41:21.116988+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/", "matched": true}
+{"timestamp": "2026-06-17T22:41:39.523195+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts/", "matched": true}
+{"timestamp": "2026-06-17T22:41:51.010952+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts/", "matched": true}
+{"timestamp": "2026-06-17T22:43:13.247911+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts/ | cat -A", "matched": true}
+{"timestamp": "2026-06-17T22:43:25.700704+00:00", "scenario": "scenario_4", "command": "file /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts", "matched": false}
+{"timestamp": "2026-06-17T22:43:46.430312+00:00", "scenario": "scenario_4", "command": "stat /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts", "matched": false}
+{"timestamp": "2026-06-17T22:44:20.739985+00:00", "scenario": "scenario_4", "command": "find /Users/XXXX-1/Documents/tcc/poc/project_alpha -maxdepth 1 -type f 2>/dev/null", "matched": false}
+{"timestamp": "2026-06-17T22:44:33.300130+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/ | grep project_alpha", "matched": true}
+{"timestamp": "2026-06-17T22:44:48.077483+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha 2>&1", "matched": true}
+{"timestamp": "2026-06-17T22:45:22.148524+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/tests/", "matched": true}
+{"timestamp": "2026-06-17T22:47:33.855265+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests -v", "matched": false}
+{"timestamp": "2026-06-17T22:48:22.701184+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && pip install -r requirements.txt", "matched": false}
+{"timestamp": "2026-06-17T22:48:35.317801+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts/", "matched": true}
+{"timestamp": "2026-06-17T22:49:01.048003+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts/", "matched": true}
+{"timestamp": "2026-06-17T22:49:40.027859+00:00", "scenario": "scenario_4", "command": "find /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts -type f 2>/dev/null", "matched": false}
+{"timestamp": "2026-06-17T22:50:59.731181+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/scripts/", "matched": true}
+{"timestamp": "2026-06-17T22:51:33.093408+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/project_alpha/ | head -20", "matched": true}
+{"timestamp": "2026-06-17T22:51:48.585155+00:00", "scenario": "scenario_4", "command": "ls -ld /Users/XXXX-1/Documents/tcc/poc/project_alpha", "matched": true}
+{"timestamp": "2026-06-17T22:52:04.339485+00:00", "scenario": "scenario_4", "command": "stat /Users/XXXX-1/Documents/tcc/poc/project_alpha", "matched": false}

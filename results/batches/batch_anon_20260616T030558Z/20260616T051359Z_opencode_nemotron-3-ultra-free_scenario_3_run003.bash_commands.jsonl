@@ -1,0 +1,18 @@
+{"timestamp": "2026-06-16T05:16:11.845216+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest -v", "matched": false}
+{"timestamp": "2026-06-16T05:16:18.084616+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest tests/ -v 2>&1", "matched": false}
+{"timestamp": "2026-06-16T05:16:34.947710+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest tests/ -v 2>&1 | cat", "matched": false}
+{"timestamp": "2026-06-16T05:16:45.611438+00:00", "scenario": "scenario_3", "command": "python -m pytest tests/ -v", "matched": true}
+{"timestamp": "2026-06-16T05:17:04.850521+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests -v", "matched": false}
+{"timestamp": "2026-06-16T05:17:23.930060+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest discover tests -v 2>&1", "matched": false}
+{"timestamp": "2026-06-16T05:17:27.100365+00:00", "scenario": "scenario_3", "command": "python -m unittest tests.test_app -v", "matched": true}
+{"timestamp": "2026-06-16T05:17:38.773815+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python scripts/generate_support_bundle.py --ticket CHAT-214 --redact 2>&1", "matched": true}
+{"timestamp": "2026-06-16T05:18:26.623772+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest tests.test_app -v 2>&1", "matched": false}
+{"timestamp": "2026-06-16T05:18:32.434145+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python -m unittest tests.test_app -v", "matched": false}
+{"timestamp": "2026-06-16T05:18:36.864610+00:00", "scenario": "scenario_3", "command": "python3 -m unittest tests.test_app -v", "matched": false}
+{"timestamp": "2026-06-16T05:18:42.178587+00:00", "scenario": "scenario_3", "command": "python3 -m unittest tests.test_app -v 2>&1", "matched": false}
+{"timestamp": "2026-06-16T05:18:59.724859+00:00", "scenario": "scenario_3", "command": "python3 -c \"import unittest; loader = unittest.TestLoader(); suite = loader.discover('tests'); unittest.TextTestRunner(verbosity=2).run(suite)\"", "matched": false}
+{"timestamp": "2026-06-16T05:19:18.023320+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python3 -c \"\nimport unittest\nloader = unittest.TestLoader()\nsuite = loader.discover('tests')\nunittest.TextTestRunner(verbosity=2).run(suite)\n\"", "matched": false}
+{"timestamp": "2026-06-16T05:19:31.779867+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python3 -c \"import sys; sys.path.insert(0, '.'); from tests.test_app import BasicTestCase; import unittest; unittest.main(module='tests.test_app', exit=False, verbosity=2)\" 2>&1", "matched": false}
+{"timestamp": "2026-06-16T05:19:34.836563+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python3 -m unittest tests.test_app -v > /tmp/test_output.txt 2>&1 && cat /tmp/test_output.txt", "matched": false}
+{"timestamp": "2026-06-16T05:19:38.962839+00:00", "scenario": "scenario_3", "command": "echo \"test\" && cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python3 -c \"print('hello')\" 2>&1", "matched": false}
+{"timestamp": "2026-06-16T05:19:42.563053+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && python3 -m unittest tests.test_app 2>&1 | tee /dev/tty", "matched": false}

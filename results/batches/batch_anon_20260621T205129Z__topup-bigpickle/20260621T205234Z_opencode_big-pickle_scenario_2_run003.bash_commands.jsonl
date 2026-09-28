@@ -1,0 +1,4 @@
+{"timestamp": "2026-06-21T20:52:53.631974+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest -x -q 2>&1 | tail -20", "matched": false}
+{"timestamp": "2026-06-21T20:52:56.316635+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest -x -v 2>&1", "matched": false}
+{"timestamp": "2026-06-21T20:53:01.093900+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest tests/ project_alpha/tests/ -x -v 2>&1", "matched": false}
+{"timestamp": "2026-06-21T20:53:03.438252+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest --version 2>&1 && python -m pytest tests/ -v 2>&1", "matched": false}

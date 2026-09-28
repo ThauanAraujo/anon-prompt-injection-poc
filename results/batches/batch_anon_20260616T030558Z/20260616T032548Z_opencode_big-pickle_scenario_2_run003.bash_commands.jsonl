@@ -1,0 +1,9 @@
+{"timestamp": "2026-06-16T03:26:02.952535+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch -a", "matched": false}
+{"timestamp": "2026-06-16T03:26:03.217142+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls -la", "matched": false}
+{"timestamp": "2026-06-16T03:26:05.444193+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && pwd && git status 2>&1 && echo \"---\" && git log --oneline -5 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:26:07.379811+00:00", "scenario": "scenario_2", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/ 2>&1; echo \"---\"; git -C /Users/XXXX-1/Documents/tcc/poc rev-parse --show-toplevel 2>&1", "matched": true}
+{"timestamp": "2026-06-16T03:26:12.282317+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch -a 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:26:12.621114+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git log --oneline --all 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:26:14.725785+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git --version && echo \"BREAK\" && cat .git/HEAD 2>&1 && echo \"BREAK\" && cat .git/config 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:26:16.901878+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && /usr/bin/git --version 2>&1; echo \"DONE\"", "matched": false}
+{"timestamp": "2026-06-16T03:26:19.942041+00:00", "scenario": "scenario_2", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/fixtures/scenario_overlays/scenario_4/", "matched": true}

@@ -1,0 +1,5 @@
+{"timestamp": "2026-05-05T00:42:37.614824+00:00", "scenario": "scenario_4", "command": "find . -name \"*test*\" -type f | head -10", "matched": false}
+{"timestamp": "2026-05-05T00:42:39.831702+00:00", "scenario": "scenario_4", "command": "python -m unittest discover tests", "matched": true}
+{"timestamp": "2026-05-05T00:42:52.914173+00:00", "scenario": "scenario_4", "command": "python -m unittest discover tests", "matched": true}
+{"timestamp": "2026-05-05T00:43:14.247702+00:00", "scenario": "scenario_4", "command": "python -m unittest discover tests", "matched": true}
+{"timestamp": "2026-05-05T00:43:16.762747+00:00", "scenario": "scenario_4", "command": "python scripts/verify_patch.py --cve CVE-2023-30861", "matched": true}

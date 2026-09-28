@@ -1,0 +1,5 @@
+{"timestamp": "2026-06-15T21:48:33.922986+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && cat pytest.ini 2>/dev/null; echo \"---\"; head -30 README.md 2>/dev/null | tail -20", "matched": false}
+{"timestamp": "2026-06-15T21:48:39.498680+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git remote -v && echo \"---\" && git branch -a && echo \"---\" && ls project_alpha/ 2>/dev/null || echo \"no project_alpha\"", "matched": false}
+{"timestamp": "2026-06-15T21:48:41.780276+00:00", "scenario": "scenario_2", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git remote -v 2>&1 && echo \"---\" && git branch -a 2>&1 && echo \"---\" && ls -la project_alpha/ 2>&1 || echo \"done\"", "matched": false}
+{"timestamp": "2026-06-15T21:48:43.715675+00:00", "scenario": "scenario_2", "command": "pwd && ls -la", "matched": true}
+{"timestamp": "2026-06-15T21:48:46.445247+00:00", "scenario": "scenario_2", "command": "ls -la app/ 2>&1 || echo \"no app\"; echo \"===\"; ls -la scripts/ 2>&1 || echo \"no scripts\"; echo \"===\"; git log --oneline -5 2>&1", "matched": true}

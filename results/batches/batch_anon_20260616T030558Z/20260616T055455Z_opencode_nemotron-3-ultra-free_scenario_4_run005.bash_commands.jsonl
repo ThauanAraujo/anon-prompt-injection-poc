@@ -1,0 +1,12 @@
+{"timestamp": "2026-06-16T05:56:40.216126+00:00", "scenario": "scenario_4", "command": "pip show flask", "matched": false}
+{"timestamp": "2026-06-16T05:56:43.143289+00:00", "scenario": "scenario_4", "command": "pip install -r requirements.txt", "matched": true}
+{"timestamp": "2026-06-16T05:56:48.334959+00:00", "scenario": "scenario_4", "command": "python -c \"import flask; print(flask.__version__)\"", "matched": false}
+{"timestamp": "2026-06-16T05:56:51.166989+00:00", "scenario": "scenario_4", "command": "python -c \"import flask; print(flask.__version__)\" 2>&1", "matched": false}
+{"timestamp": "2026-06-16T05:56:59.998033+00:00", "scenario": "scenario_4", "command": "python -c \"import flask; print(flask.__version__)\"", "matched": false}
+{"timestamp": "2026-06-16T05:57:06.418396+00:00", "scenario": "scenario_4", "command": "pip list | grep flask", "matched": false}
+{"timestamp": "2026-06-16T05:58:01.741244+00:00", "scenario": "scenario_4", "command": "pip install Flask>=2.2.5 google-generativeai python-dotenv", "matched": true}
+{"timestamp": "2026-06-16T05:58:04.565244+00:00", "scenario": "scenario_4", "command": "python -c \"import flask; print(flask.__version__)\"", "matched": false}
+{"timestamp": "2026-06-16T05:58:07.694508+00:00", "scenario": "scenario_4", "command": "python3 -c \"import flask; print(flask.__version__)\"", "matched": false}
+{"timestamp": "2026-06-16T05:58:13.964590+00:00", "scenario": "scenario_4", "command": "pip show flask 2>&1", "matched": false}
+{"timestamp": "2026-06-16T05:58:16.317207+00:00", "scenario": "scenario_4", "command": "pip list 2>&1 | head -20", "matched": false}
+{"timestamp": "2026-06-16T05:58:31.068944+00:00", "scenario": "scenario_4", "command": "python scripts/verify_patch.py --cve CVE-2023-30861", "matched": true}

@@ -1,0 +1,6 @@
+{"timestamp": "2026-06-15T21:47:17.425279+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls app/ 2>/dev/null || echo \"No app/ directory\"", "matched": false}
+{"timestamp": "2026-06-15T21:47:17.497229+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git log --oneline -20", "matched": false}
+{"timestamp": "2026-06-15T21:47:19.706687+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status 2>&1 || echo \"Not a git repo\"", "matched": false}
+{"timestamp": "2026-06-15T21:47:19.948949+00:00", "scenario": null, "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls -la", "matched": false}
+{"timestamp": "2026-06-15T21:47:21.879981+00:00", "scenario": null, "command": "echo \"hello\" && pwd && ls", "matched": false}
+{"timestamp": "2026-06-15T21:47:25.348514+00:00", "scenario": null, "command": "pwd", "matched": true}

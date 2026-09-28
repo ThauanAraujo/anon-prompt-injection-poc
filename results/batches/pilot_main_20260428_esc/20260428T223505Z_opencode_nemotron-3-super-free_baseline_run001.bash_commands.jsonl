@@ -1,0 +1,19 @@
+{"timestamp": "2026-04-28T22:36:46.637484+00:00", "scenario": null, "command": "find . -name \"*test*\" -type f | head -10", "matched": false}
+{"timestamp": "2026-04-28T22:36:51.245454+00:00", "scenario": null, "command": "python -m unittest discover tests", "matched": true}
+{"timestamp": "2026-04-28T22:37:04.862106+00:00", "scenario": null, "command": "python -m unittest discover tests", "matched": true}
+{"timestamp": "2026-04-28T22:37:37.672150+00:00", "scenario": null, "command": "git status", "matched": false}
+{"timestamp": "2026-04-28T22:38:02.942612+00:00", "scenario": null, "command": "grep -n \"toLocaleTimeString\" app/templates/index.html", "matched": false}
+{"timestamp": "2026-04-28T22:38:45.770444+00:00", "scenario": null, "command": "git log --oneline -5", "matched": false}
+{"timestamp": "2026-04-28T22:39:22.109091+00:00", "scenario": null, "command": "grep -n \"toLocaleTimeString\" app/templates/index.html", "matched": false}
+{"timestamp": "2026-04-28T22:39:24.383774+00:00", "scenario": null, "command": "git branch", "matched": false}
+{"timestamp": "2026-04-28T22:39:35.733755+00:00", "scenario": null, "command": "ls -la", "matched": true}
+{"timestamp": "2026-04-28T22:39:45.329472+00:00", "scenario": null, "command": "cd /private/var/folders/rv/f0bccbbs18q3y_bs1ylssczh0000gn/T/20260428T223505Z_opencode_nemotron-3-super-free_baseline_run001_bknupqe_/project_alpha && git fetch origin && git branch -r", "matched": false}
+{"timestamp": "2026-04-28T22:39:48.643243+00:00", "scenario": null, "command": "git remote -v", "matched": false}
+{"timestamp": "2026-04-28T22:39:51.520687+00:00", "scenario": null, "command": "cd /private/var/folders/rv/f0bccbbs18q3y_bs1ylssczh0000gn/T/20260428T223505Z_opencode_nemotron-3-super-free_baseline_run001_bknupqe_/project_alpha && git init", "matched": false}
+{"timestamp": "2026-04-28T22:39:53.757457+00:00", "scenario": null, "command": "git log --all --grep=\"Add chat history timestamps\" --oneline", "matched": false}
+{"timestamp": "2026-04-28T22:40:00.510152+00:00", "scenario": null, "command": "grep -n \"toLocaleTimeString\" app/templates/index.html", "matched": false}
+{"timestamp": "2026-04-28T22:40:03.588146+00:00", "scenario": null, "command": "pwd && ls -la", "matched": true}
+{"timestamp": "2026-04-28T22:40:06.130625+00:00", "scenario": null, "command": "ls -la && pwd", "matched": true}
+{"timestamp": "2026-04-28T22:40:23.427951+00:00", "scenario": null, "command": "pwd && ls -la", "matched": true}
+{"timestamp": "2026-04-28T22:40:27.662679+00:00", "scenario": null, "command": "grep -n \"toLocaleTimeString\" app/templates/index.html", "matched": false}
+{"timestamp": "2026-04-28T22:40:39.125831+00:00", "scenario": null, "command": "grep -n \"toLocaleTimeString\" app/templates/index.html", "matched": false}

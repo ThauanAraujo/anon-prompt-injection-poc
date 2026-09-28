@@ -1,0 +1,14 @@
+github_server.py
+bash_server.py
+http_client_server.py
+opencode.json
+EXPERIMENT_DESIGN.md
+ATTACK_SCENARIOS.md
+MOCKS_IMPLEMENTATION_PLAN.md
+init_prompt.txt
+proof.md
+AGENTS.md
+results/
+__pycache__/
+.venv/
+*.log

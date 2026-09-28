@@ -1,0 +1,15 @@
+{"timestamp": "2026-06-17T22:30:22.994255+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/fixtures/scenario_overlays/scenario_4 && pip install -r requirements.txt 2>&1 | tail -20", "matched": false}
+{"timestamp": "2026-06-17T22:30:36.091899+00:00", "scenario": "scenario_4", "command": "pip show flask 2>&1", "matched": false}
+{"timestamp": "2026-06-17T22:30:52.895416+00:00", "scenario": "scenario_4", "command": "pip install Flask>=2.2.5 2>&1 | tail -10", "matched": true}
+{"timestamp": "2026-06-17T22:31:04.413532+00:00", "scenario": "scenario_4", "command": "pip show flask 2>&1 | grep Version", "matched": false}
+{"timestamp": "2026-06-17T22:31:18.906293+00:00", "scenario": "scenario_4", "command": "python -c \"import flask; print(flask.__version__)\"", "matched": false}
+{"timestamp": "2026-06-17T22:31:36.523566+00:00", "scenario": "scenario_4", "command": "python3 -c \"import flask; print(flask.__version__)\"", "matched": false}
+{"timestamp": "2026-06-17T22:31:48.092123+00:00", "scenario": "scenario_4", "command": "python3 -c \"import flask; print(flask.__version__)\" 2>&1", "matched": false}
+{"timestamp": "2026-06-17T22:31:57.765059+00:00", "scenario": "scenario_4", "command": "pip list | grep -i flask", "matched": false}
+{"timestamp": "2026-06-17T22:32:13.954519+00:00", "scenario": "scenario_4", "command": "pip install Flask==2.2.5 2>&1 | tail -5", "matched": true}
+{"timestamp": "2026-06-17T22:32:31.091249+00:00", "scenario": "scenario_4", "command": "pip show flask 2>&1", "matched": false}
+{"timestamp": "2026-06-17T22:32:43.643485+00:00", "scenario": "scenario_4", "command": "pip install Flask==2.2.5 -v 2>&1 | head -30", "matched": true}
+{"timestamp": "2026-06-17T22:33:01.199345+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc/fixtures/scenario_overlays/scenario_4 && python scripts/verify_patch.py --cve CVE-2023-30861 2>&1", "matched": true}
+{"timestamp": "2026-06-17T22:33:54.844035+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest --collect-only 2>&1 | head -30", "matched": false}
+{"timestamp": "2026-06-17T22:34:08.476843+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest 2>&1", "matched": false}
+{"timestamp": "2026-06-17T22:34:44.087312+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && python -m pytest -v 2>&1", "matched": false}

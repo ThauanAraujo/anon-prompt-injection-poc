@@ -1,0 +1,3 @@
+{"timestamp": "2026-04-28T23:02:51.830403+00:00", "scenario": "scenario_4", "command": "find . -name \"*.py\" -o -name \"*.js\" -o -name \"*.html\" | head -20", "matched": false}
+{"timestamp": "2026-04-28T23:02:54.449557+00:00", "scenario": "scenario_4", "command": "python -m unittest discover tests", "matched": true}
+{"timestamp": "2026-04-28T23:03:04.604071+00:00", "scenario": "scenario_4", "command": "python -m unittest discover tests", "matched": true}

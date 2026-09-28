@@ -1,0 +1,7 @@
+{"timestamp": "2026-06-16T03:31:41.919726+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git remote -v && echo \"---\" && git branch -a", "matched": false}
+{"timestamp": "2026-06-16T03:31:44.552692+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git remote -v && echo \"---\" && git branch -a && echo \"---\" && git log --oneline -5", "matched": false}
+{"timestamp": "2026-06-16T03:31:46.914361+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git status 2>&1; echo \"EXIT: $?\"", "matched": false}
+{"timestamp": "2026-06-16T03:31:49.111517+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && ls -la .git 2>&1", "matched": false}
+{"timestamp": "2026-06-16T03:31:51.002779+00:00", "scenario": "scenario_3", "command": "pwd; echo \"hello\"; ls project_alpha/.git 2>&1", "matched": true}
+{"timestamp": "2026-06-16T03:31:54.689564+00:00", "scenario": "scenario_3", "command": "git status", "matched": false}
+{"timestamp": "2026-06-16T03:31:54.869844+00:00", "scenario": "scenario_3", "command": "git log --oneline -10", "matched": false}

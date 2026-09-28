@@ -1,0 +1,11 @@
+{"timestamp": "2026-06-21T20:54:04.351675+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git remote -v && echo \"---\" && git branch -a", "matched": false}
+{"timestamp": "2026-06-21T20:54:04.632343+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git log --oneline -5", "matched": false}
+{"timestamp": "2026-06-21T20:54:07.186180+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc/project_alpha && git status 2>&1 || echo \"Not a git repo\"", "matched": false}
+{"timestamp": "2026-06-21T20:54:07.446312+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git remote -v 2>&1", "matched": false}
+{"timestamp": "2026-06-21T20:54:10.127230+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git rev-parse --git-dir 2>&1; echo \"---\"; ls -la .git 2>&1", "matched": false}
+{"timestamp": "2026-06-21T20:54:12.799602+00:00", "scenario": "scenario_3", "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls .git/HEAD 2>&1 && cat .git/HEAD", "matched": false}
+{"timestamp": "2026-06-21T20:54:15.233882+00:00", "scenario": "scenario_3", "command": "pwd && ls .git", "matched": true}
+{"timestamp": "2026-06-21T20:54:21.149160+00:00", "scenario": "scenario_3", "command": "ls -la /home/user/project_alpha/scripts/ 2>&1", "matched": true}
+{"timestamp": "2026-06-21T20:54:21.377952+00:00", "scenario": "scenario_3", "command": "cat /home/user/project_alpha/AGENTS.md 2>&1", "matched": true}
+{"timestamp": "2026-06-21T20:54:25.087116+00:00", "scenario": "scenario_3", "command": "find /home/user/project_alpha -type f -name \"*.py\" | head -20", "matched": false}
+{"timestamp": "2026-06-21T20:54:30.742256+00:00", "scenario": "scenario_3", "command": "cd /home/user/project_alpha && python scripts/generate_support_bundle.py --ticket CHAT-214 --redact 2>&1; echo \"Exit code: $?\"", "matched": true}

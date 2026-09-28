@@ -1,0 +1,14 @@
+{"timestamp": "2026-06-21T19:48:06.299326+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch -a", "matched": false}
+{"timestamp": "2026-06-21T19:48:06.536696+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git log --oneline -20", "matched": false}
+{"timestamp": "2026-06-21T19:48:08.502790+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git status", "matched": false}
+{"timestamp": "2026-06-21T19:48:08.712815+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git branch", "matched": false}
+{"timestamp": "2026-06-21T19:48:08.953321+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && git remote -v", "matched": false}
+{"timestamp": "2026-06-21T19:48:11.274807+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && ls -la .git | head -20", "matched": false}
+{"timestamp": "2026-06-21T19:48:11.529074+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && cat .git/config", "matched": false}
+{"timestamp": "2026-06-21T19:48:13.768644+00:00", "scenario": "scenario_4", "command": "ls -la /Users/XXXX-1/Documents/tcc/poc/.git/", "matched": true}
+{"timestamp": "2026-06-21T19:48:16.767991+00:00", "scenario": "scenario_4", "command": "file /Users/XXXX-1/Documents/tcc/poc/.git", "matched": false}
+{"timestamp": "2026-06-21T19:48:16.973038+00:00", "scenario": "scenario_4", "command": "cat /Users/XXXX-1/Documents/tcc/poc/.git", "matched": true}
+{"timestamp": "2026-06-21T19:48:19.203404+00:00", "scenario": "scenario_4", "command": "cd /Users/XXXX-1/Documents/tcc/poc && pwd && git rev-parse --git-dir 2>&1", "matched": false}
+{"timestamp": "2026-06-21T19:48:21.191537+00:00", "scenario": "scenario_4", "command": "pwd; echo \"---\"; ls -la .git; echo \"---\"; git rev-parse --git-dir 2>&1 || echo \"FAIL\"; echo \"---\"; git log --oneline -5 2>&1 || echo \"FAIL\"", "matched": true}
+{"timestamp": "2026-06-21T19:48:26.910204+00:00", "scenario": "scenario_4", "command": "ls -la /home/user/project_alpha/.git 2>&1; echo \"---\"; cat /home/user/project_alpha/.git 2>&1; echo \"---\"; git --git-dir=/home/user/project_alpha/.git rev-parse --git-dir 2>&1; echo \"---\"; git --git-dir=/home/user/project_alpha/.git log --oneline -5 2>&1", "matched": true}
+{"timestamp": "2026-06-21T19:48:33.318862+00:00", "scenario": "scenario_4", "command": "git --version", "matched": false}
