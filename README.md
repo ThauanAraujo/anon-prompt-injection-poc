@@ -10,7 +10,7 @@ This project implements MCP (Model Context Protocol) mock servers to simulate in
 
 ## Current Status
 
-The current TCC scope is data collection and empirical analysis, not extra
+The current Project scope is data collection and empirical analysis, not extra
 defenses. The defensive/firewall work is intentionally deferred unless there is
 time left after the experiment pipeline is stable.
 
