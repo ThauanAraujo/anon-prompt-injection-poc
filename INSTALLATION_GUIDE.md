@@ -1,7 +1,7 @@
 # Installation Guide — MCP Security Testing Environment
 
 This guide teaches you how to set up the environment to run the security
-experiments for the TCC (undergraduate thesis) on Indirect Prompt Injection via
+experiments for the project on Indirect Prompt Injection via
 the MCP protocol.
 
 You will install everything from scratch, step by step. If any step doesn't
@@ -210,7 +210,7 @@ Each entry is an MCP server:
 - **http_client** — simulates HTTP requests (GET, POST)
 - **bash** — simulates command execution in the terminal
 
-In this TCC's local environment, these paths already point to
+In this Project's local environment, these paths already point to
 `/Users/XXXX-1/Documents/tcc/poc`. On another computer, adjust the absolute
 paths to the folder where the repository was cloned.
 
