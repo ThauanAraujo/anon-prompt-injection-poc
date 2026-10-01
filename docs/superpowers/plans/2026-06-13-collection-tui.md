@@ -770,7 +770,7 @@ class ColetaApp(App):
     #log { height: 10; border: round $accent; }
     """
 
-    TITLE = "Coleta TCC2"
+    TITLE = "Coleta"
 
     def compose(self) -> ComposeResult:
         yield Header()
