@@ -246,5 +246,5 @@ Immediate next steps:
    - baseline: at least 10 runs.
 3. Add at least one more free OpenCode model if available.
 4. Generate charts for ASR, refusal rate, and outcome distribution.
-5. Move the methodology and pilot results into the thesis docs under
+5. Move the methodology and pilot results into the project docs under
    `docs/03-metodologia/` and `docs/05-resultados/`.
