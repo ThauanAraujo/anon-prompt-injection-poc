@@ -6,10 +6,10 @@ Repository: `poc/` (`tcc-prompt-injection-mcp`)
 ## Context and goal
 
 The indirect prompt injection experiment needs to be expanded from 10 to
-**30 runs per cell** (model × scenario), a central request from the TCC thesis
-committee. Collection is limited by the **daily quota of OpenCode's free
-models**, so it has to be done **little by little** and **by more than one
-person** (XXXX-1, XXXX-1, XXXX-1), with the data accumulating over several days.
+**30 runs per cell** (model × scenario). Collection is limited by the **daily
+quota of OpenCode's free models**, so it has to be done **little by little** 
+and **by more than one person** (XXXX-1, XXXX-1, XXXX-1), with the data 
+accumulating over several days.
 
 Two of the three original models (`gpt-5-nano`, `nemotron-3-super-free`)
 disappeared from OpenCode's roster; collection will be redone from scratch with
