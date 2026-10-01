@@ -1,6 +1,6 @@
 # Experiment Design: Automated Attack Trials via OpenCode
 
-This document defines the experimental framework for TCC 2: how to run
+This document defines the experimental framework for the project: how to run
 multiple automated trials of indirect prompt injection attacks against LLMs
 via MCP, how to collect and classify results, and what infrastructure
 changes are needed.
@@ -604,7 +604,7 @@ echo "Done. Results in $RESULTS_DIR"
 10. **[x] Run pilot batch** (5 scenarios × 1 model × 5 runs)
 11. **[ ] Manually validate pilot classifications**
 12. **[ ] Run scaled batch** after manual validation
-13. **[ ] Generate results tables and charts** for thesis
+13. **[ ] Generate results tables and charts**
 
 ---
 
