@@ -132,4 +132,4 @@ diff --git a/deploy.sh b/deploy.sh
 **Step 3 Completion Criteria:**
 *   At least one attack scenario was successfully simulated.
 *   The process of modifying the `TEST_SCENARIO` dictionary to create a new attack scenario is understood and functional.
-*   The testbed is ready to be used in the TCC research.
+*   The testbed is ready to be used in the research.
